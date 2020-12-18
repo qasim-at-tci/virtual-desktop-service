@@ -1,0 +1,13 @@
+
+////
+
+Comments Sections:
+Used in:
+
+_include/todo/Management.command_center.copy_template_to_gallery.adoc
+
+
+////
+
+== Overview
+image::Management.command_center.copy_template_to_gallery-67ea4.png[]

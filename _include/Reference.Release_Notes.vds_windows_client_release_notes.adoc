@@ -1,6 +1,7 @@
 
 ////
 
+Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_windows_client_release_notes.adoc
 
 ////

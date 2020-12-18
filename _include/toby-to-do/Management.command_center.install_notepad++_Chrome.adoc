@@ -1,0 +1,13 @@
+
+////
+
+Comments Sections:
+Used in:
+
+_include/todo/Management.command_center.install_notepad++_Chrome.adoc
+
+
+////
+
+== Overview
+image::Management.command_center.install_notepad++_Chrome-2eb07.png[]
