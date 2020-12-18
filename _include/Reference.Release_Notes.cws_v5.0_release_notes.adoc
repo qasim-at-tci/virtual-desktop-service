@@ -1,6 +1,7 @@
 
 ////
 
+Comments Sections:
 Used in: sub:Reference.Release_Notes.cws_v5.0_release_notes.adoc
 
 ////

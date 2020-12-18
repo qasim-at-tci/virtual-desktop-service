@@ -1,0 +1,12 @@
+
+////
+
+Comments Sections:
+Used in:
+
+_include/todo/Management.command_center.generate_email_reports.adoc
+
+////
+
+== Overview
+image::Management.command_center.generate_email_reports-72145.png[]
