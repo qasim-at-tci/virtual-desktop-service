@@ -16,7 +16,7 @@ keywords: # change this line
 :imagesdir: ./media/
 :keywords:
 
-include::_include/Management.Deployments.file.name.adoc[]
+include::_include/toby-to-do/Management.command_center.copy_template_to_gallery.adoc[]
 
 
 ////
