@@ -144,7 +144,7 @@ entries:
 #      - title: Delete Datacenter Site
 #        url: /Management.command_center.delete_datacenter_site.html
 #      - title: Delete Drives Form Server
-#        url: /Management.command_center.delete_drives_form_server.html
+#        url: /Management.command_center.delete_drives_from_server.html
 #      - title: Delete Server
 #        url: /Management.command_center.delete_server.html
 #      - title: Delete Template

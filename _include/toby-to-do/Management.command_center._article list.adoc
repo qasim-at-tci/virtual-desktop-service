@@ -30,7 +30,7 @@ _include/todo/Management.command_center.create_template_phase_3.adoc
 _include/todo/Management.command_center.created_company.adoc
 _include/todo/Management.command_center.delete_backup.adoc
 _include/todo/Management.command_center.delete_datacenter_site.adoc
-_include/todo/Management.command_center.delete_drives_form_server.adoc
+_include/todo/Management.command_center.delete_drives_from_server.adoc
 _include/todo/Management.command_center.delete_server.adoc
 _include/todo/Management.command_center.delete_template.adoc
 _include/todo/Management.command_center.edit_provisioning_collection.adoc
