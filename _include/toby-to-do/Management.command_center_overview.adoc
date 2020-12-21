@@ -8,7 +8,7 @@ Used in:
 ////
 
 == Overview
-The Command Center is an application that runs on the CWMGR1 Platform Server in the Deployment. This application
+The Command Center is an application that runs on the CWMGR1 Platform Server in the Deployment. This application is primarily used by NetApp's 
 
 == Running Command Center
 .To run the Command Center application:
@@ -61,7 +61,7 @@ To review logs, click the *View All Logs* button.  The raw text file will open, 
 * link:Management.command_center.created_company.html[Created Company]
 * link:Management.command_center.delete_backup.html[Delete Backup]
 * link:Management.command_center.delete_datacenter_site.html[Delete Datacenter Site]
-* link:Management.command_center.delete_drives_form_server.html[Delete Drives Form Server]
+* link:Management.command_center.delete_drives_from_server.html[Delete Drives Form Server]
 * link:Management.command_center.delete_server.html[Delete Server]
 * link:Management.command_center.delete_template.html[Delete Template]
 * link:Management.command_center.edit_provisioning_collection.html[Edit Provisioning Collection]
