@@ -37,3 +37,4 @@ Deployments can only be performed into the regions where the image has been repl
 
 [.thumb]
 image::Management.command_center.copy_template_to_gallery-9b63a.png[width=75%]
+ 
