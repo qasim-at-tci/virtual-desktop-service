@@ -1,0 +1,12 @@
+
+////
+
+Comments Sections:
+Used in:
+_include/todo/Management.command_center.operations.backups_run_all_scheduled.adoc
+
+
+////
+
+== Overview
+image::Management.command_center.operations.backups_run_all_scheduled-be912.png[]

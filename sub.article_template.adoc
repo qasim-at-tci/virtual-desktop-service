@@ -16,7 +16,7 @@ keywords: # change this line
 :imagesdir: ./media/
 :keywords:
 
-include::_include/Management.command_center.copy_template_to_gallery.adoc[]
+include::_include/Management.command_center.operations.copy_template_to_gallery.adoc[]
 
 
 ////
