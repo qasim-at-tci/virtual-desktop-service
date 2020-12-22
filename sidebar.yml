@@ -94,7 +94,7 @@ entries:
   - title: Command Center
     entries:
       - title: Management Command Center Overview
-        url: /Management.command_center_overview.html
+        url: /Management.command_center.overview.html
 #      - title: Add Cloud Workspace to Company
 #        url: /Management.command_center.add_cloud_workspace_to_company.html
 #      - title: Add Existing Server to Company
