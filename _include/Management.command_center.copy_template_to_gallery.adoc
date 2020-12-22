@@ -11,9 +11,12 @@ _include/Management.command_center.copy_template_to_gallery.adoc
 
 == Overview
 
-image::Management.command_center.copy_template_to_gallery-67ea4.png[width=50%]
+[.right]
+image::Management.command_center.copy_template_to_gallery-67ea4.png[width=400]
 
 When a VDI Provisioning Collection is finalized the image is stored in Azure as an Image and can be deployed within he same VDS Site.  In order to make the image available for deployment in another Azure region within the same Subscription the "Copy Template to Gallery" function is used. This action will copy the VM image to the Shared gallery and replicate it to all the selected regions.
+
+
 
 image::Management.command_center.copy_template_to_gallery-ed821.png[width=100%]
 
