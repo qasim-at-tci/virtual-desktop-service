@@ -93,10 +93,10 @@ entries:
     entries:
       - title: Scriped Events Overview
         url: /Management.Scripted_Events.scripted_events.html
-#  - title: Command Center
-#    entries:
-#      - title: Management Command Center Overview
-#        url: /Management.command_center_overview.html
+  - title: Command Center
+    entries:
+      - title: Management Command Center Overview
+        url: /Management.command_center_overview.html
 #      - title: Add Cloud Workspace to Company
 #        url: /Management.command_center.add_cloud_workspace_to_company.html
 #      - title: Add Existing Server to Company
@@ -115,8 +115,8 @@ entries:
 #        url: /Management.command_center.change_data_home_pro_folders.html
 #      - title: Change Password
 #        url: /Management.command_center.change_password.html
-#      - title: Copy Template to Gallery
-#        url: /Management.command_center.copy_template_to_gallery.html
+      - title: Copy Template to Gallery
+        url: /Management.command_center.copy_template_to_gallery.html
 #      - title: Create Azure File Share
 #        url: /Management.command_center.create_azure_file_share.html
 #      - title: Create Azure Netapp Files Share

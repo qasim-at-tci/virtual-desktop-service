@@ -8,11 +8,11 @@ Used in:
 ////
 
 == Overview
-The Command Center is an application that runs on the CWMGR1 Platform Server in the Deployment. This application is primarily used by NetApp's 
+The Command Center is an application that runs on the CWMGR1 Platform Server in the Deployment. This application was designed for troubleshooting, diagnostic and advanced management functions.  This application is primarily used by NetApp's internal development and support teams however some functions are occasionally used by customer admins.  This documentation is provided to support the use of selection functions.  Use of these commands should be done with care and in collaboration with the NetApp support team.
 
 == Running Command Center
 .To run the Command Center application:
-. Connect to the server from the _VDS > Deployment > Platform Servers_ page click the _Acrions_ icon and select "Connect"
+. Connect to the server from the _VDS > Deployment > Platform Servers_ page click the _Actions_ icon and select "Connect"
 +
 image::Management.command_center_overview-68087.png[width=75%]
 . When prompted for credentials enter domain admin credentials
