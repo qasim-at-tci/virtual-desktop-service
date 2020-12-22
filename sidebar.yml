@@ -261,6 +261,10 @@ entries:
 #        url: /Management.command_center.operations.wildcard_cert_create_new.html
 #      - title: Wildcard Cert-Install
 #        url: /Management.command_center.operations.wildcard_cert_install.html
+#    - title: Hypervisor
+#      entries:
+#    - title: Advanced
+#      entries:
 
   - title: Configure Cost Optimization
     url: /Management.Cost_Optimization.workload_schedule.html
