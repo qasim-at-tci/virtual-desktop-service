@@ -79,10 +79,10 @@ entries:
   entries:
   - title: Deployments
     entries:
-      - title: Provisioning Collections
-        url: /Management.Deployments.provisioning_collections.html
-      - title: VDS Logical Hierarchy Overview
-        url: /Management.Deployments.logical_hierarchy_overview.html
+    - title: Provisioning Collections
+      url: /Management.Deployments.provisioning_collections.html
+    - title: VDS Logical Hierarchy Overview
+      url: /Management.Deployments.logical_hierarchy_overview.html
   - title: Applications
     entries:
     - title: App Entitlement for RDS
@@ -91,14 +91,14 @@ entries:
       url: /Management.Applications.wvd_application_entitlement_workflow.html
   - title: Scripted Events
     entries:
-      - title: Scriped Events Overview
-        url: /Management.Scripted_Events.scripted_events.html
+    - title: Scriped Events Overview
+      url: /Management.Scripted_Events.scripted_events.html
   - title: Command Center
     entries:
-      - title: Management Command Center Overview
-        url: /Management.command_center.overview.html
-      - title: Operations
-        entries:
+    - title: Management Command Center Overview
+      url: /Management.command_center.overview.html
+    - title: Operations
+      entries:
 #        - title: Add Cloud Workspace to Company
 #          url: /Management.command_center.operations.add_cloud_workspace_to_company.html
 #       - title: Add Existing Server to Company
@@ -117,8 +117,8 @@ entries:
 #        url: /Management.command_center.operations.change_data_home_pro_folders.html
 #      - title: Change Password
 #        url: /Management.command_center.operations.change_password.html
-        - title: Copy Template to Gallery
-          url: /Management.command_center.operations.copy_template_to_gallery.html
+      - title: Copy Template to Gallery
+        url: /Management.command_center.operations.copy_template_to_gallery.html
 #      - title: Create Azure File Share
 #        url: /Management.command_center.operations.create_azure_file_share.html
 #      - title: Create Azure Netapp Files Share
@@ -263,6 +263,10 @@ entries:
 #        url: /Management.command_center.operations.wildcard_cert_create_new.html
 #      - title: Wildcard Cert-Install
 #        url: /Management.command_center.operations.wildcard_cert_install.html
+#    - title: Hypervisor
+#      entries:
+#    - title: Advanced
+#      entries:
 
   - title: Configure Cost Optimization
     url: /Management.Cost_Optimization.workload_schedule.html
