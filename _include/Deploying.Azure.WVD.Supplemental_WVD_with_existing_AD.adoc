@@ -23,14 +23,19 @@ Enter the existing domain name that will be used. Note: you do not want to use t
 
 == Existing AD username and password
 There are three ways to provide the credentials necessary to facilitate a deployment using an existing AD structure.
-Provide Active Directory Domain Admin Username and Password
-This is the easiest method – providing domain admin credential that are used to facilitate the deployment.
-Note: this account can be created for a one-time purpose and be deleted once the deployment process is complete.
-Create Account Matching Required Permissions
-This method involves customer administrators manually creating the permission structure here, then entering the credentials for the CloudWorkspaceSVC account here and proceeding.
-Manual Deployment Process
-This option involves running the NetApp VDS Domain Preparation Tool, to build these permissions out automatically.
 
+=== Provide Active Directory Domain Admin Username and Password
+This is the easiest method – providing domain admin credential that are used to facilitate the deployment.
+
+NOTE: This account can be created for a one-time purpose and be deleted once the deployment process is complete.
+
+=== Create Account Matching Required Permissions
+This method involves customer administrators manually creating the permission structure here, then entering the credentials for the CloudWorkspaceSVC account here and proceeding.
+
+=== Manual Deployment Process
+Contact NetApp VDS Support for assistance configuring AD access with least privileged account principals.
+
+////
 == NetApp VDS deployment preparation tool
 
 === Access method
@@ -77,6 +82,7 @@ image:Existing AD 2.png[]
 Typing A and hitting Enter
 
 image:Existing AD 3.png[]
+////
 
 == Next steps
 This article covers the unique steps to deploy into an existing AD environment. With these steps complete, you can return to the standard deployment guide link:Deploying.Azure.WVD.Deploying_WVD_in_Azure.html#active-directory-type[here].

@@ -353,7 +353,7 @@ entries:
       - title: CWS v5.1 release notes
         url: /Reference.Release_Notes.cws_v5.1_release_notes.html
       - title: CWS v5.0 release notes
-      url: /Reference.Release_Notes.cws_v5.0_release_notes.html
+        url: /Reference.Release_Notes.cws_v5.0_release_notes.html
   - title: End user access
     url: /Reference.end_user_access.html
   - title: VDS change environments
