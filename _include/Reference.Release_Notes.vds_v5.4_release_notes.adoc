@@ -6,6 +6,17 @@ Used in: sub.Reference.Release_Notes.vds_v5.4_release_notes.adoc
 
 ////
 
+== VDS 5.4 release: Thurs., January 7, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday January 7th, 2021 at 10pm - 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Assorted proactive security and performance enhancements
+* Text update – change the Command Center action from Create Azure File Share to Create Azure Files Share
+
+=== Cost Estimators
+* Assorted proactive security and performance enhancements
 
 == VDS 5.4 release: Thurs., December 17, 2020
 _Components:_ 5.4 Virtual Desktop Service
