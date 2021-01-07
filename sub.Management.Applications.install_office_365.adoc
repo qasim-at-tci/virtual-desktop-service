@@ -14,6 +14,6 @@ keywords:
 :icons: font
 :linkattrs:
 :imagesdir: ./media/
-:keywords:
+:keywords: Applications
 
 include::_include/Management.Applications.install_office_365.adoc[]
