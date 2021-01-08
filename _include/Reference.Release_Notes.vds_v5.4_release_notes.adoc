@@ -6,6 +6,16 @@ Used in: sub.Reference.Release_Notes.vds_v5.4_release_notes.adoc
 
 ////
 
+== VDS 5.4 hotfix: Fri. January 8, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Wednesday January  8th, 2021 at 12pm – 12:05 pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== VDS
+* Brief, subsequent update to ensure that VDCTools is current in all deployments
+** By design, updates to VDCTools are applied intelligently – the update waits until no actions are being taken, then automatically completes any actions taken during the brief update period
+
+
 == VDS 5.4 release: Thurs., January 7, 2021
 _Components:_ 5.4 Virtual Desktop Service
 _When:_ Thursday January 7th, 2021 at 10pm - 11pm Eastern
