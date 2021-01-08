@@ -1,3 +1,4 @@
+////
 ---
 sidebar: sidebar
 permalink: article_template.html # change this line
@@ -19,7 +20,6 @@ keywords: # change this line
 include::_include/Management.command_center.operations.copy_template_to_gallery.adoc[]
 
 
-////
 Create article process:
 
 Using the example of an article with a Title of "File Name"
