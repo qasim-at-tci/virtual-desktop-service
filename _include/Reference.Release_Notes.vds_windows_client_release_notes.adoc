@@ -32,36 +32,6 @@ Users connecting with the VDS for Windows client today will still be able to con
 Please contact ng-vds-support@netapp.com with any questions you may have.
 ////
 
-== Date: Thursday August 27, 2020 at 11pm Eastern
-
-Impact:  Users will see the RDP client update the next time they launch it
-
-No updates this release cycle.
-
-== Date: Thursday August 13, 2020 at 11pm Eastern
-
-Impact:  Users will see the RDP client update the next time they launch it
-
-No updates this release cycle.
-
-== Date: Thursday July 30, 2020 at 11pm Eastern
-
-Impact:  Users will see the RDP client update the next time they launch it
-
-No updates this release cycle.
-
-== Date: Thursday July 16, 2020 at 11pm Eastern
-
-Impact:  Users will see the RDP client update the next time they launch it
-
-No updates this release cycle.
-
-== Date: Thursday June 25, 2020 at 11pm Eastern
-
-Impact:  Users will see the RDP client update the next time they launch it
-
-No updates this release cycle.
-
 == Date: Thursday June 11, 2020 at 11pm Eastern
 
 Impact:  Users will see the RDP client update the next time they launch it
