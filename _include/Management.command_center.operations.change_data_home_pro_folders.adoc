@@ -12,7 +12,7 @@ sub.Management.command_center.operations.change_data_home_pro_folders.adoc
 == *Change Data/Pro/Home Folders* Overview
 
 [.right]
-image::images/Management.command_center.operations.change_data_home_pro_folders-678cd.png[width=400]
+image::Management.command_center.operations.change_data_home_pro_folders-678cd.png[width=400]
 
 The storage location for the Data, Profiles and Users' Home folders is managed by active directory.  Command Center includes an operation for changing these locations.
 
@@ -25,7 +25,7 @@ When the Resource Pool selection is blank, the settings are applied globally.
 Selecting a specific Resource Pool (aka Host pool) will allow for the Users' Profile path to be define individually for that Resource Pool
 
 [.thumb]
-image::images/Management.command_center.operations.change_data_home_pro_folders-3ac43.png[][]
+image::Management.command_center.operations.change_data_home_pro_folders-3ac43.png[][]
 
 
 == Is Windows Server

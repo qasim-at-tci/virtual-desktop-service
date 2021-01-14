@@ -1,0 +1,45 @@
+
+////
+
+Comments Sections:
+Used in: sub.Deploying.Azure.WVD.Azure_Marketplace.adoc
+
+////
+
+== Overview
+.Search for Azure Marketplace
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-18287.png[]
+.Check in "Private Offers"
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-1bf02.png[]
+.Click "Set up + subscribe"
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-885e1.png[]
+.Choose Subscription, Name and User count
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-36efc.png[]
+.Review terms and click "Subscribe"
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-e0f71.png[]
+.Wait for Subscription to complete
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-c1599.png[]
+.Click "Configure account now" once Subscription is complete
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-3aa3f.png[]
+.Accept permissions and consent on behalf of your organization
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-b914e.png[]
+.Enter primary contact information
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-f9650.png[]
+.Register a VDS Admin account
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-4f802.png[]
+.Confirm entries and click "Register"
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-8a6d6.png[]
+.Begin the deployment wizard. link:Deploying.Azure.WVD.Deploying_WVD_in_Azure_v6.html[WVD deployment wizard documentation link]
+[.thumb]
+image::Deploying.Azure.WVD.Azure_Marketplace-6bb58.png[]
