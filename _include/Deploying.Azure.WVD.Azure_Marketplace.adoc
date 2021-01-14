@@ -5,41 +5,71 @@ Comments Sections:
 Used in: sub.Deploying.Azure.WVD.Azure_Marketplace.adoc
 
 ////
+The VDS team is excited to report that service is live and ready to transact through the Azure Marketplace as of Friday, January 15, 2021. This new marketplace capability delivers several key benefits to you as a joint NetApp/Microsoft customer:
+
+* Since you can use your existing Enterprise Agreement commitments to pay for services purchased through the Azure Marketplace, you don't need to define and allocate net-new budget for this powerful WVD enhancement service – you can leverage your existing Azure commitments to enable VDS, streamline your WVD environments, and reduce your overall cloud spend!
+
+* Enhanced operations without administrative burden – Microsoft simply adds your VDS service to your existing Azure invoice right alongside the rest of your infrastructure and service
+This is a fast, easy way to leverage automation and orchestration to streamline WVD deployments, reduce your cloud infrastructure spend, and get more out of your WVD investment.
+
+
+=== License Count FAQ:
+
+* The Azure Marketplace requires the enforcement of license count capacity, which means that you will not be able to enable virtual desktops for more users than the number of licenses purchased in the Azure Marketplace.
+
+** For example: if you purchased 100 users for a POC and want to enable additional users, please navigate back to the Azure Marketplace and increase the number of licenses purchased via the Azure Marketplace.
+
+* As license count enforcement is required, if an admin decreases the number of licenses purchased via the Azure portal to a number lower than the number of users with desktops provisioned in VDS, admins will see an error prompt when logging into the VDS UI.
+
+** For this reason, in the event it is necessary to decrease the number of VDS licenses purchased it is a best practice to de-provision the virtual desktops from users in VDS prior to decreasing license count in the Azure Marketplace.
+
 
 == Overview
-.Search for Azure Marketplace
+. Search for Azure Marketplace
+
 [.thumb]
 image::Deploying.Azure.WVD.Azure_Marketplace-18287.png[]
-.Check in "Private Offers"
+. Check in "Private Offers"
++
 [.thumb]
-image::Deploying.Azure.WVD.Azure_Marketplace-1bf02.png[]
-.Click "Set up + subscribe"
+image::Deploying.Azure.WVD.Azure_Marketplace-4cba8.png[]
+. Click "Set up + subscribe"
++
 [.thumb]
 image::Deploying.Azure.WVD.Azure_Marketplace-885e1.png[]
-.Choose Subscription, Name and User count
+. Choose Subscription, Name and User count
++
 [.thumb]
 image::Deploying.Azure.WVD.Azure_Marketplace-36efc.png[]
-.Review terms and click "Subscribe"
+. Review terms and click "Subscribe"
++
 [.thumb]
-image::Deploying.Azure.WVD.Azure_Marketplace-e0f71.png[]
-.Wait for Subscription to complete
+image::Deploying.Azure.WVD.Azure_Marketplace-bbe9d.png[]
+. Wait for Subscription to complete
++
 [.thumb]
-image::Deploying.Azure.WVD.Azure_Marketplace-c1599.png[]
-.Click "Configure account now" once Subscription is complete
+image::Deploying.Azure.WVD.Azure_Marketplace-9a2ef.png[]
+. Click "Configure account now" once Subscription is complete
++
 [.thumb]
-image::Deploying.Azure.WVD.Azure_Marketplace-3aa3f.png[]
-.Accept permissions and consent on behalf of your organization
+image::Deploying.Azure.WVD.Azure_Marketplace-38a10.png[]
+. Accept permissions and consent on behalf of your organization
++
 [.thumb]
 image::Deploying.Azure.WVD.Azure_Marketplace-b914e.png[]
-.Enter primary contact information
+. Enter primary contact information
++
 [.thumb]
 image::Deploying.Azure.WVD.Azure_Marketplace-f9650.png[]
-.Register a VDS Admin account
+. Register a VDS Admin account
++
 [.thumb]
 image::Deploying.Azure.WVD.Azure_Marketplace-4f802.png[]
-.Confirm entries and click "Register"
+. Confirm entries and click "Register"
++
 [.thumb]
 image::Deploying.Azure.WVD.Azure_Marketplace-8a6d6.png[]
-.Begin the deployment wizard. link:Deploying.Azure.WVD.Deploying_WVD_in_Azure_v6.html[WVD deployment wizard documentation link]
+. Begin the deployment wizard. link:Deploying.Azure.WVD.Deploying_WVD_in_Azure_v6.html[WVD deployment wizard documentation link]
++
 [.thumb]
 image::Deploying.Azure.WVD.Azure_Marketplace-6bb58.png[]
