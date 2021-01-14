@@ -22,12 +22,12 @@ Scripts Events contains both a *repository* of scripts and *activities*.  Script
 === Repository
 The Repository Tab shows a list of all scripts available to be deployed from within your VDS account.  This is a custom repository that is shared by all administrators in your VDS instance.  Access to Scripted Events can be managed on the _VDS > Admins > Permissions page_.
 
-image::Management.Scripted_Events.scripted_events-823b2.png[width=75%]
+image::Management.Scripted_Events.scripted_events-823b2.png[]
 
 ==== Add Script
 Clicking on the _+ Add Script_ button opens a new page for creating a script and saving it to the repository.
 
-image::Management.Scripted_Events.scripted_events-8360c.png[width=75%]
+image::Management.Scripted_Events.scripted_events-a53fa.png[]
 
 The following fields need to be completed to create a new script:
 
@@ -49,6 +49,8 @@ The following fields need to be completed to create a new script:
 *** %applicationname% - Requested application name at runtime
 *** %scriptname% - Script name at runtime
 *** %username% - username@loginidentifier at runtime
+* *Documentation URL*
+** This field allows the writer of the script to link it to documentation found outside of VDS such as a Knowledge Base system used by the VDS admins' organization.
 
 ==== Edit Script
 Clicking the name of a script in the repository opens a new page with details about the script and an action button to *edit*.
@@ -57,25 +59,25 @@ When editing a script the same fields are editable as documented above in the li
 
 On this script detail page, you can also *delete* the script and *download* any uploaded script file.
 
-image::Management.Scripted_Events.scripted_events-4b491.png[width=75%]
+image::Management.Scripted_Events.scripted_events-3e756.png[]
 
 === Activities
 Activities link a script from the repository to a Deployment, a subset of VMs and a trigger event.
 
-image::Management.Scripted_Events.scripted_events-f971c.png[width=75%]
+image::Management.Scripted_Events.scripted_events-f971c.png[]
 
 ==== Add Activity
 Clicking on the _+ Add Activity_ button opens a new page for creating an Activity.
 
-image::Management.Scripted_Events.scripted_events-02ef8.png[width=75%]
+image::Management.Scripted_Events.scripted_events-02ef8.png[]
 
 The following fields need to be completed to create a new activity:
 
 * *Name*
 * *Description* (Optional)
 * *Deployment*
-* Script
-* Arguments
+* *Script*
+* *Arguments*
 * *Enabled* checkbox
 * *Event Settings*
 
@@ -91,7 +93,7 @@ The following fields need to be completed to create a new activity:
 ** This selection allows you to select an application from the Application Library and to pre-define the shortcut of the application.
 ** Detailed instructions for this trigger are highlighted in the link:scriptlibrary.AdobeReader.html##uninstall-script[_Uninstall Adobe Reader DC_ script documentation].
 * *Clone Server*
-**
+** This is triggered when the Clone function is performed against an existing VM
 * *Create Cache*
 ** This is triggered anytime a new VM is built by VDS for a provisioning collection cache
 * *Create Client*
@@ -105,7 +107,7 @@ The following fields need to be completed to create a new activity:
 * *Manual*
 ** This is triggered by a VDS admin manually from within the "Scripted Events > Activity" page
 * *Manual Application Update*
-**
+// **
 * *Scheduled*
 ** This is triggered when the defined date/time is reached
 * *Start Server*
