@@ -6,6 +6,30 @@ Used in: sub.Reference.Release_Notes.vds_v5.4_release_notes.adoc
 
 ////
 
+== VDS 5.4 release: Thurs., January 21, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday January 21st, 2021 at 10pm - 11pm Eastern
+_Impact:_ Users will see the RDP client update the next time they launch it
+
+== Improvements
+* Improved experience for end users – better handling of users imported from external domains
+
+== VDS 5.4 release: Thurs., January 21, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday January 21st, 2021 at 10pm - 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+== Virtual Desktop Service
+* Removal of TSD1 VMs from deployments selecting PaaS services for data management
+* Assorted proactive security and performance enhancements
+* Process streamlining for multi-server deployment configurations
+* Bug fix for a specific configuration for a deployment in GCP
+* Bug fix for creating Azure Files shares via the Command Center
+* Update to provide Server 2019 as an OS in GCP
+
+== Cost Estimators
+* Assorted proactive security and performance enhancements
+
 == VDS 5.4 hotfix: Mon. January 18, 2021
 _Components:_ 5.4 Virtual Desktop Service
 _When:_ Monday January 18th, 2021 at 10pm – 11pm Eastern

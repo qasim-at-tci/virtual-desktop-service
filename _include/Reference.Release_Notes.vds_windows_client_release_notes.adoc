@@ -10,7 +10,7 @@ Used in: sub.Reference.Release_Notes.vds_windows_client_release_notes.adoc
 ////
 == Date: TBD
 
-Impact: Users may be prompted that their whitelisting needs to be updated next time they launch the client
+_Impact:_ Users may be prompted that their whitelisting needs to be updated next time they launch the client
 
 We will be making an update to our Virtual Desktop Service Client for Windows so that it can utilize the latest API. This means that organizations that whitelist access to outbound locations from inside a network would need to make adjustments to the whitelist either now or in the future.
 
@@ -31,20 +31,27 @@ Users connecting with the VDS for Windows client today will still be able to con
 
 Please contact ng-vds-support@netapp.com with any questions you may have.
 ////
+== VDS 5.4 release: Thurs., January 21, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday January 21st, 2021 at 10pm - 11pm Eastern
+_Impact:_ Users will see the RDP client update the next time they launch it
+
+=== Improvements
+* Improved experience for end users – better handling of users imported from external domains
 
 == Date: Thursday June 11, 2020 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Update the latest WVD RDP Client available for installation
 
 == Date: Thursday May 28, 2020 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Updates to reflect NetApp branding/phrasing. Note – this new branding will be applied for:
 **  New VDS Client downloads
@@ -53,41 +60,41 @@ Improvements
 
 == Date: Thursday May 14, 2020 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday April 30, 2020 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Bug Fixes
+=== Bug Fixes
 
 * Bug fix for a subset of scenarios where self service password reset was not presented
 
 == Date: Thursday April 16, 2020 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday April 2, 2020 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday March 19, 2020 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday, March 5, 2020 at 10pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Graceful handling of a fringe bug with the RDP protocol where legacy credential types mixed with the most current patches on a RDS gateway results in an inability to connect to session hosts
 **  If the end user’s workstation is set up (whether by an external admin, internal customer admin or via the workstation’s default settings) to use legacy credential types, there is a slim possibility this could have impacted users prior to this release
@@ -96,40 +103,40 @@ Improvements
 
 == Date: Thursday, February 20, 2020 at 10pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Proactive enhancements to security, stability and scalability
 
-Considerations
+=== Considerations
 
 * The Cloud Workspace Client for Windows will continue to auto-update as long as a user launches it prior to 4/2. If a user does not launch the Cloud Workspace Client for Windows prior to 4/2 their connection to their desktop will still function, but they will need to uninstall and reinstall the Cloud Workspace Client for Windows to resume auto-update functionality.
 * If your organization uses web filtering, please whitelist access to cwc.cloudworkspace.com and cwc-cloud.cloudworkspace.com so that auto-update functionality remains in place
 
 == Date: Thursday January 9, 2020 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday December 19, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Monday December 2, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday, November 14, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Improved clarity for the reason a user would see a ‘your services are currently offline’ message. The potential causes for a message appearing are:
 ** Session host server is scheduled to be offline and user does not have Wake on Demand permissions.
@@ -147,23 +154,23 @@ Improvements
 
 == Date: Thursday, October 31, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday, November 17, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Add WVD elements:
 
 == Date: Thursday October 3, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Improved handling of code signing certificates
 
@@ -174,9 +181,9 @@ Bug Fixes
 
 == Date: Thursday September 19, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Add WVD elements:
 ** If the end user has access to WVD resources, present a WVD tab
@@ -188,71 +195,71 @@ Improvements
 
 == Date: Thursday, September 5, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday, August 22, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday, August 8, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday, July 25, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Thursday, July 11, 2019 at 11pm Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Friday, June 21, 2019 at 4am Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-No updates this release cycle.
+* No updates this release cycle.
 
 == Date: Friday, June 7, 2019 at 4am Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Enable Cloud Workspace Client to automatically launch RDP connections regardless of what the file type association for .rdp files is set to
 
 == Date: Friday, May 24, 2019 at 4am Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Improved performance during the sign in process
 * Reduced load time on launch
 
 == Date: Friday, May 10, 2019 at 4am Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Improved performance during the sign in process
 * Reduced load time on launch
 
 == Date: Friday, April 12, 2019 at 4am Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Enhanced login speed for Wake on Demand
 * After the successful launch of the Cloud Workspace Client for Windows, we will be removing the Feedback button to free up space in the User interface
@@ -263,9 +270,9 @@ Bug Fixes
 
 == Date: Friday, March 15, 2019 at 4am Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * Allow for Admins using the Cloud Workspace Client for Windows to provide a Support email address OR a phone number, not to require both
 * Ensure that the HTML5 URL provided in Cloud Workspace Client is a valid URL – if not, this will default to https;//login.cloudjumper.com
@@ -273,9 +280,9 @@ Improvements
 
 == Date: Friday, February 29, 2019 at 4am Eastern
 
-Impact:  Users will see the RDP client update the next time they launch it
+_Impact:_  Users will see the RDP client update the next time they launch it
 
-Improvements
+=== Improvements
 
 * The AppData folder has been moved for clarity from c:\users\<username>\appdata\local\RDPClient to c:\users\<username>\appdata\local\Cloud Workspace
 * Implemented a mechanism to streamline upgrade paths if a User has not updated their client in multiple releases
@@ -287,9 +294,9 @@ Bug Fixes
 
 == Date: Friday, February 15, 2019 at 4am Eastern
 
-Impact:  Users will see the RDP client update when they launch it
+_Impact:_  Users will see the RDP client update when they launch it
 
-Improvements
+=== Improvements
 
 * Enable Silent/Quiet installation options for remote installations
 ** Install flags are as follows:
@@ -307,7 +314,7 @@ Improvements
 ** banner.jpg, banner.png, banner.gif or banner.bmp and this will be displayed in the client window.
 ** These images should be in the 21:9 ratio
 
-Bug Fixes
+=== Bug Fixes
 
 * The Registered symbol has been adjusted
 * Empty phone and email entries on the Help page have been fixed
