@@ -23,7 +23,7 @@ Scripts Events contains both a *repository* of scripts and *activities*.  Script
 === Repository
 The Repository Tab shows a list of all scripts available to be deployed from within your VDS account.  This is a custom repository that is shared by all administrators in your VDS instance.  Access to Scripted Events can be managed on the _VDS > Admins > Permissions page_.
 [.thumb]
-image::sub.Management.Scripted_Events.scripted_events-1ce76.png[width=75%]
+image::sub.Management.Scripted_Events.scripted_events-1ce76.png[]
 
 ==== Customer Filter
 Each VDS administrator organization has a private library of scripts created and/or customized by their organization.  These scripts are defined as Script Type "Customer." Customer scripts an be deleted and edited by any VDS administrator with appropriate admin permissions to the Scripted Events section.
@@ -34,12 +34,12 @@ NetApp also publishes and maintains a library of "Global" scripts that is the sa
 ==== Download Script
 The ability to download the script file associated with a Scripted Event allows the VDS Administrator to review and edit the underlying script file prior to deployment.  Running a script that you don't fully understand is never advisable.
 [.thumb]
-image::sub.Management.Scripted_Events.scripted_events-02a9b.png[width=75%]
+image::sub.Management.Scripted_Events.scripted_events-02a9b.png[]
 
 ==== Add Script
 Clicking on the _+ Add Script_ button opens a new page for creating a script and saving it to the repository.
 [.thumb]
-image::Management.Scripted_Events.scripted_events-a53fa.png[width=75%]
+image::Management.Scripted_Events.scripted_events-a53fa.png[]
 
 The following fields need to be completed to create a new script:
 
@@ -71,17 +71,17 @@ When editing a script the same fields are editable as documented above in the li
 
 On this script detail page, you can also *delete* the script and *download* any uploaded script file.
 [.thumb]
-image::Management.Scripted_Events.scripted_events-3e756.png[width=75%]
+image::Management.Scripted_Events.scripted_events-3e756.png[]
 
 === Activities
 Activities link a script from the repository to a Deployment, a subset of VMs and a trigger event.
 [.thumb]
-image::Management.Scripted_Events.scripted_events-f971c.png[width=75%]
+image::Management.Scripted_Events.scripted_events-f971c.png[]
 
 ==== Add Activity
 Clicking on the _+ Add Activity_ button opens a new page for creating an Activity.
 [.thumb]
-image::Management.Scripted_Events.scripted_events-02ef8.png[width=75%]
+image::Management.Scripted_Events.scripted_events-02ef8.png[]
 
 The following fields need to be completed to create a new activity:
 
@@ -96,7 +96,7 @@ The following fields need to be completed to create a new activity:
 
 ==== Activity Triggers
 [.thumb]
-image::sub.Management.Scripted_Events.scripted_events-cdfcd.png[width=75%]
+image::sub.Management.Scripted_Events.scripted_events-cdfcd.png[]
 
 * *Application Install*
 ** This is triggered when the VDS Admin clicks "+ Add..." from the _Workspace > Applications_ page.
