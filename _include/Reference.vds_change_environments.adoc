@@ -16,15 +16,14 @@ Virtual Desktop Service is the management console that administrators can use to
 [cols=5*,options="header",cols="20,20,20,20,20"]
 |===
 |Environment |Description |URL |Codebase |API Documentation
-// |Validation |Validation version of the upcoming release for early testing |https://val.manage.vds.netapp.com/ |6.0 |https://api.cloudworkspace.com/5.4/swagger/ui/index
+// |Preview |Preview version of the upcoming release |https://val.manage.vds.netapp.com/ |6.0 |https://api.cloudworkspace.com/5.4/swagger/ui/index
+// |*Current* 	|*Current release* |*https://manage.vds.netapp.com/* |*5.4* |*https://api.cloudworkspace.com/5.4/swagger/ui/index*
 |Preview |Preview version of the upcoming release |https://preview.manage.cloudworksace.com/ |5.4 |https://api.cloudworkspace.com/5.4/swagger/ui/index
 |*Current* 	|*Current release* |*https://manage.cloudworkspace.com/* |*5.4* |*https://api.cloudworkspace.com/5.4/swagger/ui/index*
 |Previous 	|Previous release |https://manage.cloudworkspace.com/ |5.3	|https://api.cloudworkspace.com/5.3/swagger/ui/index
-// |Legacy |Oldest supported minor release |http://legacy.manage.cloudworkspace.com/ |5.1, 5.2 |https://iit-api.hostwindow.net/5.1
-
-
-https://iit-api.hostwindow.net/5.2/
+// https://iit-api.hostwindow.net/5.2/
 |===
+
 
 === Virtual Desktop Service for Azure (VDS) Setup
 
@@ -35,8 +34,8 @@ Administrators cannot provision deployments to a Legacy environment – only in 
 [cols=5*,options="header",cols="20,20,20,20,20"]
 |===
 |Environment |	Description |	URL |	Codebase |	Deployment Guide
-// |Preview 	|Preview of the upcoming release |	https://manage.vds.netapp.com/deployments/add |	6.0 |	TBD
-|*Current* |	*Current release* |	*https://cwasetup.cloudworkspace.com* |	*5.4* |	*link:Deploying.Azure.WVD.Deploying_WVD_in_Azure.html[VDS Deployment Guide]*
+// |Preview | Preview version of the upcoming release | https://val.manage.vds.netapp.com/deployments | 6.0 | link:Deploying.Azure.WVD.Deploying_WVD_in_Azure_v6.html[VDS v6.0 Deployment Guide]
+|*Current* |	*Current release* |	*https://cwasetup.cloudworkspace.com* |	*5.4* |	*link:Deploying.Azure.WVD.Deploying_WVD_in_Azure.html[VDS v5.4 Deployment Guide]*
 |===
 
 === VDS Cost Estimator
