@@ -1,0 +1,14 @@
+
+////
+
+Comments Sections:
+Used in:
+
+_include/todo/Management.command_center.operations.generate_reports.adoc
+
+
+////
+
+== Overview
+
+image::Management.command_center.operations.generate_reports-9332f.png[]

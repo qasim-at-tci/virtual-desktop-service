@@ -1,0 +1,13 @@
+
+////
+
+Comments Sections:
+Used in:
+
+_include/todo/Management.command_center.operations.exclude_server_from_monitoring.adoc
+
+
+////
+
+== Overview
+image::Management.command_center.operations.exclude_server_from_monitoring-f1bdb.png[]

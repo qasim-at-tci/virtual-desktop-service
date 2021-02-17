@@ -1,0 +1,13 @@
+
+////
+
+Comments Sections:
+Used in:
+
+_include/todo/Management.command_center.operations.stop_sddc.adoc
+
+
+////
+
+== Overview
+image::Management.command_center.operations.stop_sddc-ce267.png[]

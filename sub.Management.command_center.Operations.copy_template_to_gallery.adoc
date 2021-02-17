@@ -1,0 +1,24 @@
+---
+sidebar: sidebar
+permalink: Management.command_center.operations.copy_template_to_gallery.html
+summary: VDS Command Center function "Copy Template to Gallery" overview
+keywords:
+---
+
+= Command Center Command: Copy Template to Gallery
+
+:toc: macro
+:hardbreaks:
+:toclevels: 2
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+:keywords:
+
+
+== Command Center Warning
+
+CAUTION: The Command Center is an application that runs on the CWMGR1 Platform Server in the Deployment. This application was designed for troubleshooting, diagnostic and advanced management functions.  This application is primarily used by NetApp's internal development and support teams however some functions are occasionally used by customer admins.  This documentation is provided to support the use of selection functions.  Use of these commands should be done with care and in collaboration with the NetApp support team.  More information can be found in the link:Management.command_center.overview.html[Command Center Overview] article.
+
+include::_include/Management.command_center.operations.copy_template_to_gallery.adoc[]

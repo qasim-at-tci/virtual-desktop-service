@@ -1,6 +1,7 @@
 
 ////
 
+Comments Sections:
 Used in: sub.Management.Scripted_Events.scripted_events.adoc
 
 Other GitHub Repos:
@@ -8,6 +9,7 @@ VDMS Repo:
 remotesub.Management.Scripted_Events.scripted_events.adoc
 
 ////
+
 
 == Overview
 Scripted Events provides the advanced administrator with a mechanism to create custom automation for system maintenance, user alerts, group policy management, or other events. Scripts can be designated to run as an executable process with arguments, or can be used as arguments for a different executable program. This functionality allows for scripts to be combined and nested to support complex customization and integration needs.
@@ -20,13 +22,24 @@ Scripts Events contains both a *repository* of scripts and *activities*.  Script
 
 === Repository
 The Repository Tab shows a list of all scripts available to be deployed from within your VDS account.  This is a custom repository that is shared by all administrators in your VDS instance.  Access to Scripted Events can be managed on the _VDS > Admins > Permissions page_.
+[.thumb]
+image::sub.Management.Scripted_Events.scripted_events-1ce76.png[]
 
-image::/Management.Scripted_Events.scripted_events-823b2.png[width=75%]
+==== Customer Filter
+Each VDS administrator organization has a private library of scripts created and/or customized by their organization.  These scripts are defined as Script Type "Customer." Customer scripts an be deleted and edited by any VDS administrator with appropriate admin permissions to the Scripted Events section.
+
+==== Global Filter
+NetApp also publishes and maintains a library of "Global" scripts that is the same across all VDS administrator organizations.  These scripts are defined as Script type "Global." Global scripts can not be edited or deleted by any VDS administrator.  Rather, Global scripts can be "Cloned" and the resulting script is a "Customer" script that can be edited and used.
+
+==== Download Script
+The ability to download the script file associated with a Scripted Event allows the VDS Administrator to review and edit the underlying script file prior to deployment.  Running a script that you don't fully understand is never advisable.
+[.thumb]
+image::sub.Management.Scripted_Events.scripted_events-02a9b.png[]
 
 ==== Add Script
 Clicking on the _+ Add Script_ button opens a new page for creating a script and saving it to the repository.
-
-image::/Management.Scripted_Events.scripted_events-8360c.png[width=75%]
+[.thumb]
+image::Management.Scripted_Events.scripted_events-a53fa.png[]
 
 The following fields need to be completed to create a new script:
 
@@ -48,6 +61,8 @@ The following fields need to be completed to create a new script:
 *** %applicationname% - Requested application name at runtime
 *** %scriptname% - Script name at runtime
 *** %username% - username@loginidentifier at runtime
+* *Documentation URL*
+** This field allows the writer of the script to link it to documentation found outside of VDS such as a Knowledge Base system used by the VDS admins' organization.
 
 ==== Edit Script
 Clicking the name of a script in the repository opens a new page with details about the script and an action button to *edit*.
@@ -55,31 +70,33 @@ Clicking the name of a script in the repository opens a new page with details ab
 When editing a script the same fields are editable as documented above in the link:#add-script[Add Script] section.
 
 On this script detail page, you can also *delete* the script and *download* any uploaded script file.
-
-image::/Management.Scripted_Events.scripted_events-4b491.png[width=75%]
+[.thumb]
+image::Management.Scripted_Events.scripted_events-3e756.png[]
 
 === Activities
 Activities link a script from the repository to a Deployment, a subset of VMs and a trigger event.
-
-image::/Management.Scripted_Events.scripted_events-f971c.png[width=75%]
+[.thumb]
+image::Management.Scripted_Events.scripted_events-f971c.png[]
 
 ==== Add Activity
 Clicking on the _+ Add Activity_ button opens a new page for creating an Activity.
-
-image::/Management.Scripted_Events.scripted_events-02ef8.png[width=75%]
+[.thumb]
+image::Management.Scripted_Events.scripted_events-02ef8.png[]
 
 The following fields need to be completed to create a new activity:
 
 * *Name*
 * *Description* (Optional)
 * *Deployment*
-* Script
-* Arguments
+* *Script*
+* *Arguments*
 * *Enabled* checkbox
 * *Event Settings*
 
 
 ==== Activity Triggers
+[.thumb]
+image::sub.Management.Scripted_Events.scripted_events-cdfcd.png[]
 
 * *Application Install*
 ** This is triggered when the VDS Admin clicks "+ Add..." from the _Workspace > Applications_ page.
@@ -90,7 +107,7 @@ The following fields need to be completed to create a new activity:
 ** This selection allows you to select an application from the Application Library and to pre-define the shortcut of the application.
 ** Detailed instructions for this trigger are highlighted in the link:scriptlibrary.AdobeReader.html##uninstall-script[_Uninstall Adobe Reader DC_ script documentation].
 * *Clone Server*
-**
+** This is triggered when the Clone function is performed against an existing VM
 * *Create Cache*
 ** This is triggered anytime a new VM is built by VDS for a provisioning collection cache
 * *Create Client*
@@ -104,53 +121,10 @@ The following fields need to be completed to create a new activity:
 * *Manual*
 ** This is triggered by a VDS admin manually from within the "Scripted Events > Activity" page
 * *Manual Application Update*
-**
+// **
 * *Scheduled*
 ** This is triggered when the defined date/time is reached
 * *Start Server*
 ** This is triggered on a VM each time it boots up
 
 Clicking on the _Name_ opens a dialog box where the activity can be edited.
-
-== Example Use Cases
-=== Automate Application Installs
-Application install, as part of the RDS Application Workflow, is a very common use for Scripted Events.
-
-First, any host where you'll automate installs will need Chocolatey pre-installed, this can be added to the VM image or automated as shown below.
-
-.To automate the install of Chocolatey, follow these steps
-. Installing Chocolatey is the first step, this utility can then be used to automate app installs. To do so, you’ll build a scripted event that executes Powershell.exe with the following arguments:
-`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString(‘https://chocolatey.org/install.ps1’))))`
-. Once the script is built it can be triggered in a variety of ways. The simplest is to manually run it but there are other options such as running this at _server create_.
-
-Once the host(s) has Chocolatey, automate with Scripted events can install a wide variety of applications from the Chocolatey repository. A complete list of available applications can be found at link:https://chocolatey.org/packages[]
-
-image:Add Script.png[]
-
-.To automate the install of an applications, follow these steps (using 7-Zip as an example)
-. Navigate to Scripted Events > Script Repository > Add
-. Select `No Script File`
-. Execute With: `c:\programdata\chocolatey\choco.exe`
-. Arguments (Optional): _leave blank_
-. Once the Script is saved, the next step is to associate that script with a Trigger. Navigate to Scripted Events > Activities > Add
-.. Enter a name for the activity (e.g. _choco install 7-Zip_)
-+
-TIP: Develop a consistent naming convention as the library of Scripts can get large
-
-.. Optionally give a description
-.. Select the script created in the previous section
-.. In _Enter Arguments (Optional):_ enter `install 7zip -y -f` (which is found here: https://chocolatey.org/packages/7zip)
-... `-y` is required to unattended installs
-... `-f` forces the install, even if the app was previously installed and is optional
-.. Select the deployment
-.. Check the enable checkbox
-.. under _Trigger On_ select _Application install_
-.. Click _Add Application_
-.. Select the application name (e.g. _7-Zip File Manager_)
-.. Enter the shortcut path for the application icon (e.g. \\shortcuts\7-Zip File Manager.lnk)
-+
-NOTE: You’ll need to know the shortcut path during this creation wizard. This can be found by looking at other installs of the app or by doing a manual install on the machine and browsing to it from the service board entry.
-
-.. Click Update > Add Activity
-
-Going forward, the act of adding that application to the Workspace will trigger the install of that application across all session hosts.

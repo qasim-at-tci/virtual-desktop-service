@@ -1,0 +1,19 @@
+---
+sidebar: sidebar
+permalink: Management.command_center.overview.html
+summary: VDS Command Center overview
+keywords:
+---
+
+= Command Center Command: Overview
+
+:toc: macro
+:hardbreaks:
+:toclevels: 2
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+:keywords:
+
+include::_include/Management.command_center_overview.adoc[]

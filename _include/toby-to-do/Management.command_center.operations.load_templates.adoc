@@ -1,0 +1,13 @@
+
+////
+
+Comments Sections:
+Used in:
+
+_include/todo/Management.command_center.operations.load_templates.adoc
+
+
+////
+
+== Overview
+image::Management.command_center.operations.load_templates-ef4af.png[]

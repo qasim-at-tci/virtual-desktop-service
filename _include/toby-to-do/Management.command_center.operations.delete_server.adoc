@@ -1,0 +1,13 @@
+
+////
+
+Comments Sections:
+Used in:
+
+_include/todo/Management.command_center.operations.delete_server.adoc
+
+
+////
+
+== Overview
+image::Management.command_center.operations.delete_server-09320.png[]

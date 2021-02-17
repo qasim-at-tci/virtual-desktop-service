@@ -1,0 +1,13 @@
+
+////
+
+Comments Sections:
+Used in:
+
+_include/todo/Management.command_center.operations.rename_server.adoc
+
+
+////
+
+== Overview
+image::Management.command_center.operations.rename_server-db4c9.png[]

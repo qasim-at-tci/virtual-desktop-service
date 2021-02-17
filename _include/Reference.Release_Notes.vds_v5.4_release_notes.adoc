@@ -1,10 +1,75 @@
 
 ////
 
+Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v5.4_release_notes.adoc
 
 ////
 
+== VDS 5.4 release: Thurs., Feb. 4, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday February 4th, 2021 at 10pm - 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Improved variable handling when using Connect to Server functionality
+* API – side functionality for reboot and multi-select reboot functionality
+* Deployment automation enhancements in Google Cloud Platform
+* Improved handling of Google Cloud Platform deployments that are powered off
+
+== VDS 5.4 release: Thurs., January 21, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday January 21st, 2021 at 10pm - 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Removal of TSD1 VMs from deployments selecting PaaS services for data management
+* Assorted proactive security and performance enhancements
+* Process streamlining for multi-server deployment configurations
+* Bug fix for a specific configuration for a deployment in GCP
+* Bug fix for creating Azure Files shares via the Command Center
+* Update to provide Server 2019 as an OS in GCP
+
+=== Cost Estimators
+* Assorted proactive security and performance enhancements
+
+== VDS 5.4 hotfix: Mon. January 18, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Monday January 18th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+
+* VDS will be applying an update to deployments leveraging SendGrid for SMTP relay
+* SendGrid is introducing a breaking change on Wednesday 1/20
+* The VDS team had already been investigating upgrades to SendGrid
+* We have been aware of this coming change and have  tested and validated an alternative (Postmark)
+* In addition to mitigating a breaking change, the VDS team has seen improved reliability and performance
+increases in deployments leveraging Postmark instead of SendGrid
+
+
+== VDS 5.4 hotfix: Fri. January 8, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Wednesday January  8th, 2021 at 12pm – 12:05pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Brief, subsequent update to ensure that VDCTools is current in all deployments
+** By design, updates to VDCTools are applied intelligently – the update waits until no actions are being taken, then automatically completes any actions taken during the brief update period
+
+
+== VDS 5.4 release: Thurs., January 7, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday January 7th, 2021 at 10pm - 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Assorted proactive security and performance enhancements
+* Text update – change the Command Center action from Create Azure File Share to Create Azure Files Share
+* Process enhancement for using Command Center to update Data/Home/Pro folders
+
+=== Cost Estimators
+* Assorted proactive security and performance enhancements
 
 == VDS 5.4 release: Thurs., December 17, 2020
 _Components:_ 5.4 Virtual Desktop Service
