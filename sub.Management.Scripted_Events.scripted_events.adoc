@@ -9,7 +9,7 @@ keywords:
 
 :toc: macro
 :hardbreaks:
-:toclevels: 2
+:toclevels: 3
 :nofooter:
 :icons: font
 :linkattrs:

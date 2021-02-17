@@ -1,5 +1,6 @@
 ////
 
+Comments Sections:
 Used in:
 sub.Management.Applications.wvd_application_entitlement_workflow.adoc
 
