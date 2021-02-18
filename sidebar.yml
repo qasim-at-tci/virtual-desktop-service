@@ -382,6 +382,8 @@ entries:
       url: /scriptlibrary.NvidiaCudaDrivers.html
     - title: Nvidia Grid Drivers
       url: /scriptlibrary.NvidiaGridDrivers.html
+    - title: Zoom for WVD
+      url: /scriptlibrary.ZoomVDI-WVD.html
 #  - title: Glossary
 #    entries:
 #    - title: VDS
