@@ -29,7 +29,7 @@ The *_Shared_* type is a collection of VM images(s) designed to deploy an entire
 
 ==== VDI
 
-The *_VDI_* type is a single VM image designed to be used and reused to deploy multiple identical VMs, typically as for hosting user sessions.
+The *_VDI_* type is a single VM image designed to be used and reused to deploy multiple identical VMs, typically used for hosting user sessions.  For all types of WVD session hosts, the _VDI_ type should be selected, even for hosts that run multiple sessions per VM. 
 
 === Creating a new Provisioning Collection
 
