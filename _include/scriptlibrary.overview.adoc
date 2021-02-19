@@ -6,15 +6,16 @@ all script library _include articles in VDS
 
 
 ////
-[.lead]
-== Overview
+== Global Scripts Overview
 NetApp VDS includes a library of pre-defined scripted events that can be used directly in VDS environments and/or duplicated and used as the building blocks for custom scripted events.
 
-For this application, this article covers both the link:#install-script[install] and link:#uninstall-script[uninstall] action. For each of these two actions, there is a summary of the script and an example of an activity (trigger) that can be applied to implement the script.
+For this application, this article covers both the install/enable and uninstall/disable action.
 
-.Jump to Section:
+== Global Script Use
+Built-in scripted events such as this one are pre-populated, checking the "global" filter checkbox will display them.
 
-* link:#suggested-add-script-settings-for-install[Install Script]
-* link:#suggested-add-activity-settings-for-install[Install Activity]
-* link:#suggested-add-script-settings-for-uninstall[Uninstall Script]
-* link:#suggested-add-activity-settings-for-uninstall[Uninstall Activity]
+Global Scripted Events such as this one are read-only. They can be used as-is or the "Clone" function can be used to create a customer copy for editing and use.
+
+The Clone button is found in the action menu on the Scripted Events page.
+
+image::scriptlibrary.overview-2ccb2.png[width=75%]

@@ -5,7 +5,7 @@ summary: Script documentation - Microsoft Office
 keywords:
 ---
 
-= Scripted Event Documentation - Microsoft Office
+= Scripted Event Documentation - Microsoft Office 365
 
 :toc: macro
 :hardbreaks:
@@ -17,5 +17,5 @@ keywords:
 :keywords:
 
 include::_include/scriptlibrary.overview.adoc[]
-
 include::_include/scriptlibrary.MicrosoftOffice365.adoc[]
+include::_include/scriptlibrary.addappactivity.adoc[]
