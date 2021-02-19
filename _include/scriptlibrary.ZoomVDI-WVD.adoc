@@ -60,7 +60,7 @@ NOTE: Built-in scripted events such as this one are pre-populated, can't be edit
 * *Arguments:* Enter '-file %scriptname%'
 
 ==== Add Script Dialog Window Screenshot
-image::scriptlibrary.script.UninstallZoomVDI-WVD.png.png[width=75%]
+image::scriptlibrary.script.UninstallZoomVDI-WVD.png[width=75%]
 
 === [[anchor2]]Suggested Add Activity Settings for Uninstall
 
