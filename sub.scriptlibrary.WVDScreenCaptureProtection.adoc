@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: scriptlibrary.WVDScreenCaptureProtection.html
-summary: Script documentation - Nvidia Grid Drivers
+summary: Script documentation - WVD Screen Capture Protection
 keywords:
 ---
 
