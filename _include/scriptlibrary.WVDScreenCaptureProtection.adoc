@@ -1,0 +1,23 @@
+////
+
+Comments Sections:
+Used in:
+sub.scriptlibrary.WVDScreenCaptureProtection.adoc
+
+////
+== WVD Screen Capture Protection overview
+This script package enables/disables the native WVD feature _screen capture protection_ by executing the (relevant) command with Powershell:
+
+Enable:
+
+`reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" /v fEnableScreenCaptureProtection /t REG_DWORD /d 1`
+
+Disable:
+
+`reg delete "HKLM\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services" /v fEnableScreenCaptureProtection /f`
+
+Microsoft documentation on this WVD feature can be found here:
+https://docs.microsoft.com/en-us/azure/virtual-desktop/security-guide#session-host-security-best-practices
+
+=== Add activity dialog window screenshot
+image::scriptlibrary.WVDScreenCaptureProtection-216a6.png[width=75%]
