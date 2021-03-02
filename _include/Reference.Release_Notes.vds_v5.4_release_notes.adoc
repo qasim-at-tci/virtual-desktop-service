@@ -5,6 +5,21 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v5.4_release_notes.adoc
 
 ////
+== DS 5.4 release: Thurs, Mar. 4, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday March 4th, 2021 at 10pm - 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Introduction of DSC-driven deployment model for Google Cloud Platform deployments
+* Scripted Events update to prevent a script from being deleted while it is actively running
+* Automation enhancements to the deployment wizard’s handling of NetBIOS for existing Active Directory environments
+* Support applying different backup schedules for individual platform servers
+* Support changing a user’s password to require them to reset their password at the next login in the same command
+* Bug fix – allow individual VMs set to migration mode to override deployment-wide migration mode settings
+* Bug fix for vSphere scenario where sending too many API commands at once caused a delay starting VMs
+* Update new deployments to support .NET 4.8.0
+* Assorted proactive security and performance enhancements
 
 == VDS 5.4 release: Thurs., Feb. 18, 2021
 _Components:_ 5.4 Virtual Desktop Service
