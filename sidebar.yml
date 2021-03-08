@@ -18,7 +18,7 @@ entries:
         url: /Deploying.Azure.WVD.vds_v5.4_prerequisites.html
 #    - title: Install VDS on existing WVD
 #      url: /
-#  - title: Remote Desktop Services
+#  - title: Remote Desktop Services (RDS)
 #    entries:
 #        - title: Deploying RDS in Azure
 #          url: /
