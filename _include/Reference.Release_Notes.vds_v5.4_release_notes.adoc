@@ -5,6 +5,14 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v5.4_release_notes.adoc
 
 ////
+== VDS 5.4 hotfix: Tuesday March 9, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Tuesday March 9th, 2021 at 5pm – 5:15pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Apply an update to resolve a Connect to Server issue in a subset of scenarios
+
 == VDS 5.4 release: Thurs, Mar. 4, 2021
 _Components:_ 5.4 Virtual Desktop Service
 _When:_ Thursday March 4th, 2021 at 10pm - 11pm Eastern
