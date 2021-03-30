@@ -11,7 +11,7 @@ In a Windows Virtual Desktop (WVD) environment, application access is managed by
 
 NOTE: This workflow only applies to WVD deployments.  For RDS application entitlement documentation, please see link:Management.Applications.application_entitlement_workflow.html[Application Entitlement Workflow for RDS]
 
-TIP: WVD is a well documented service and there are many link:https://docs.microsoft.com/en-us/azure/virtual-desktop/manage-app-groups[public resources for information].  VDS does not superseded the standard way that WVD operates.  Rather, this article is designed to illustrate how VDS approaches the standard concept found across all WVD deployments.
+TIP: WVD is a well documented service and there are many link:https://docs.microsoft.com/en-us/azure/virtual-desktop/manage-app-groups[public resources for information].  VDS does not superseed the standard way that WVD operates.  Rather, this article is designed to illustrate how VDS approaches the standard concept found across all WVD deployments.
 
 TIP: Reviewing the link:Management.Deployments.logical_hierarchy_overview.html[VDS Logical Hierarchy Overview] article may be useful before or while reviewing this article.
 

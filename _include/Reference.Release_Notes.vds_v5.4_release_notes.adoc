@@ -5,6 +5,32 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v5.4_release_notes.adoc
 
 ////
+== VDS 5.4 hotfix: Tuesday March 23, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Tuesday March 23rd, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Update to the displaying host pools – resolve an issue in a subset of scenarios where newly created host pools were completing successfully, but not promptly present in the VDS UI
+
+== VDS 5.4 release: Thursday March 18, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday March 18th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+* Virtual Desktop Service
+* Allow Connect to Server functionality when end user connections to a VM are disallowed
+* Phrasing adjustment to PAM messages users receive via SMS
+* Assorted proactive security and performance enhancements
+
+== VDS 5.4 hotfix: Tuesday March 9, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Tuesday March 9th, 2021 at 5pm – 5:15pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Apply an update to resolve a Connect to Server issue in a subset of scenarios
+
 == VDS 5.4 release: Thurs, Mar. 4, 2021
 _Components:_ 5.4 Virtual Desktop Service
 _When:_ Thursday March 4th, 2021 at 10pm - 11pm Eastern

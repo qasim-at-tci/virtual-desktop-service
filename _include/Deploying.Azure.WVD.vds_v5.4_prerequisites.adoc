@@ -13,7 +13,8 @@ This document describes the required elements for deploying Windows Virtual Desk
 
 === Azure requirements
 
-* Azure Tenant with Azure AD instance (can be Microsoft 365 instance)
+* Azure AD Tenant
+* Microsoft 365 Licensing to support WVD
 * Azure Subscription
 * Available Azure Quota for Azure virtual machines
 * Azure Admin Account with Global Admin and Subscription Ownership Roles
