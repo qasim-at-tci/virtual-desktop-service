@@ -1,0 +1,21 @@
+---
+sidebar: sidebar
+permalink: scriptlibrary.WVDScreenCaptureProtection.html
+summary: Script documentation - WVD Screen Capture Protection
+keywords:
+---
+
+= Scripted Event Documentation - WVD Screen Capture Protection
+
+:toc: macro
+:hardbreaks:
+:toclevels: 2
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+:keywords:
+
+include::_include/scriptlibrary.overview.adoc[]
+include::_include/scriptlibrary.WVDScreenCaptureProtection.adoc[]
+include::_include/scriptlibrary.manualactivity.adoc[]

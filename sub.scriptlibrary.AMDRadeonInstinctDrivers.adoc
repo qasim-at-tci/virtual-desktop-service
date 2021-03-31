@@ -17,5 +17,5 @@ keywords:
 :keywords:
 
 include::_include/scriptlibrary.overview.adoc[]
-
 include::_include/scriptlibrary.AMDRadeonInstinctDrivers.adoc[]
+include::_include/scriptlibrary.manualactivity.adoc[]

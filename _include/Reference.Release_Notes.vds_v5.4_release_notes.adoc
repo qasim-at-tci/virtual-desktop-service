@@ -5,6 +5,62 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v5.4_release_notes.adoc
 
 ////
+== VDS 5.4 hotfix: Tuesday March 23, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Tuesday March 23rd, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Update to the displaying host pools – resolve an issue in a subset of scenarios where newly created host pools were completing successfully, but not promptly present in the VDS UI
+
+== VDS 5.4 release: Thursday March 18, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday March 18th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+* Virtual Desktop Service
+* Allow Connect to Server functionality when end user connections to a VM are disallowed
+* Phrasing adjustment to PAM messages users receive via SMS
+* Assorted proactive security and performance enhancements
+
+== VDS 5.4 hotfix: Tuesday March 9, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Tuesday March 9th, 2021 at 5pm – 5:15pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Apply an update to resolve a Connect to Server issue in a subset of scenarios
+
+== VDS 5.4 release: Thurs, Mar. 4, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday March 4th, 2021 at 10pm - 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Introduction of DSC-driven deployment model for Google Cloud Platform deployments
+* Scripted Events update to prevent a script from being deleted while it is actively running
+* Automation enhancements to the deployment wizard’s handling of NetBIOS for existing Active Directory environments
+* Support applying different backup schedules for individual platform servers
+* Support changing a user’s password to require them to reset their password at the next login in the same command
+* Bug fix – allow individual VMs set to migration mode to override deployment-wide migration mode settings
+* Bug fix for vSphere scenario where sending too many API commands at once caused a delay starting VMs
+* Update new deployments to support .NET 4.8.0
+* Assorted proactive security and performance enhancements
+
+== VDS 5.4 release: Thurs., Feb. 18, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday February 18th, 2021 at 10pm - 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Updates to the default install method for FSLogix per Microsoft best practices
+* Proactive upgrades to platform components to support increased user activity
+* Improved automation for handling certificate management variables
+* Support forcing a reset of a User’s MFA settings at next login when changing their password
+* Remove VDS admin group from being managed within the Groups module VDS in AADDS deployments
+
+=== Cost Estimators
+* Updates to reflect that certain VMs no longer have Promo price points
 
 == VDS 5.4 release: Thurs., Feb. 4, 2021
 _Components:_ 5.4 Virtual Desktop Service

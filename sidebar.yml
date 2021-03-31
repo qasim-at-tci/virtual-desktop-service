@@ -18,7 +18,7 @@ entries:
         url: /Deploying.Azure.WVD.vds_v5.4_prerequisites.html
 #    - title: Install VDS on existing WVD
 #      url: /
-#  - title: Remote Desktop Services
+#  - title: Remote Desktop Services (RDS)
 #    entries:
 #        - title: Deploying RDS in Azure
 #          url: /
@@ -62,7 +62,7 @@ entries:
 #      url: /
 #    - title: Migrate users between sites
 #      url: /
-#    - title: Platform Server Roles 
+#    - title: Platform Server Roles
 #      url: /
   - title: Change Data Layer
     url: /Architectural.change_data_layer.html
@@ -382,6 +382,8 @@ entries:
       url: /scriptlibrary.NvidiaCudaDrivers.html
     - title: Nvidia Grid Drivers
       url: /scriptlibrary.NvidiaGridDrivers.html
+    - title: WVD Screen Capture Protection
+      url: /scriptlibrary.WVDScreenCaptureProtection.html
     - title: Zoom for WVD
       url: /scriptlibrary.ZoomVDI-WVD.html
 #  - title: Glossary
