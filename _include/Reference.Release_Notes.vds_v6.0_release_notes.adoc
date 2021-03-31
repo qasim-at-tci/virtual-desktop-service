@@ -22,6 +22,6 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 * Improved visibility of the actions menu available in HTML5 connections via Connect to Server or RDS user sessions via HTML5
 * Increase the QTY of characters supported in the name of an activity Scripted Events
 * Updated Provisioning Collections OS choices by type
-* For WVD and Windows 10, use the VDI collection type to ensure the Windows 10 OS is present
-* For a Windows Server OS, use the shared
+** For WVD and Windows 10, use the VDI collection type to ensure the Windows 10 OS is present
+** For a Windows Server OS, use the Shared collection type
 * Assorted proactive security and performance enhancements
