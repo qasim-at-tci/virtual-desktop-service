@@ -4,25 +4,24 @@
 Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
+////
 
-
-
-== VDS 5.4 release: Thurs., December 3, 2020
-_Components:_ 5.4 Virtual Desktop Service
-_When:_ Thursday December 3rd, 2020 at 10pm - 11pm Eastern
+== VDS 6.0 release: Thursday April 1, 2021
+_Components:_ 6.0 Virtual Desktop Service
+_When:_ Thursday April 1st, 2021 at 10pm – 11pm Eastern
 _Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
 
 === Virtual Desktop Service
-* Update to the FSLogix installation method
-* Ongoing proactive security measures
 
-=== VDS Setup
-* Update to Azure NetApp Files deployment automation – support creating:
-* 4 TB Capacity Pool/Volume at minimum
-* 500 TB Capacity Pool/100 TB Volume at maximum
-* Improved variable handling for advanced deployment options
-
-=== Cost Estimators
-* Removal of disk operations from the Google Cost Estimator
-* Updates reflecting new services available by region in the Azure Cost Estimator
-////
+* Updates to the NetApp Cloud Insights integration – new streaming data points:
+** NVIDIA GPU performance data
+** Round Trip Time
+** User Input Delay
+* Update the Connect to Server function to allow administrative connections to VMs even when VMs are set to disallow connections from end users
+* API enhancements to enabled theming & branding in a subsequent release
+* Improved visibility of the actions menu available in HTML5 connections via Connect to Server or RDS user sessions via HTML5
+* Increase the QTY of characters supported in the name of an activity Scripted Events
+* Updated Provisioning Collections OS choices by type
+* For WVD and Windows 10, use the VDI collection type to ensure the Windows 10 OS is present
+* For a Windows Server OS, use the shared
+* Assorted proactive security and performance enhancements

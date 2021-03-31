@@ -1,0 +1,20 @@
+
+////
+
+Comments Sections:
+Used in: sub.Reference.Release_Notes.vds_v5.5_release_notes.adoc
+
+////
+== VDS 5.5 release: Thursday April 1, 2021
+_Components:_ 5.5 Virtual Desktop Service
+_When:_ Thursday April 1st, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+
+* After several weeks of testing and issue-free updates to deployments, the VDS team is updating existing deployments to VDS v5.5
+* The primary function of this update is to prepare deployments to leverage the VDS v6 UI in the future via update the version of .NET installed from 4.7.2 to 4.8.0
+* Support for future deployment automation enhancements in GCP
+* Support for Windows Server 2019 in GCP
+* Minor Command Center functional updates
+* Support for Windows Server 2019 and Office 2019 SPLA license keys
