@@ -339,7 +339,11 @@ entries:
 - title: Reference
   entries:
   - title: Release notes
-    entries:
+    entries:      
+    - title: VDS v6.0 release notes
+      url: /Reference.Release_Notes.vds_v6.0_release_notes.html
+    - title: VDS v5.5 release notes
+      url: /Reference.Release_Notes.vds_v5.5_release_notes.html
     - title: VDS v5.4 release notes
       url: /Reference.Release_Notes.vds_v5.4_release_notes.html
     - title: VDS Windows client release notes

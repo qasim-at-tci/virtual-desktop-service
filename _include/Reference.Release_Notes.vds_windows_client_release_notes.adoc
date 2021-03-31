@@ -31,6 +31,16 @@ Users connecting with the VDS for Windows client today will still be able to con
 
 Please contact ng-vds-support@netapp.com with any questions you may have.
 ////
+
+== Date: Thursday April 1, 2020 at 11pm Eastern
+_Impact:_ Users will see the RDP client update the next time they launch it
+
+=== Improvements
+
+* Update to RemoteApp applications - no longer prompt for credentials when users launch individual apps
+* Update to allow end users to toggle between using ThinPrint and Windows printer redirection for printing
+* Update to allow the VDS Client for Windows Designer users to exclude printing redirection services
+
 == VDS 5.4 release: Thurs., January 21, 2021
 _Components:_ 5.4 Virtual Desktop Service
 _When:_ Thursday January 21st, 2021 at 10pm - 11pm Eastern
