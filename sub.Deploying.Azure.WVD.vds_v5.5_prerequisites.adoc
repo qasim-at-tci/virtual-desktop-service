@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar
-permalink: Deploying.Azure.WVD.vds_v5.4_prerequisites.html
+permalink: Deploying.Azure.WVD.vds_v5.5_prerequisites.html
 summary: WVD and VDS prerequisites
 ---
 
-= WVD and VDS v5.4 Prerequisites
+= WVD and VDS v5.5 Prerequisites
 
 :toc: macro
 :hardbreaks:
@@ -15,4 +15,4 @@ summary: WVD and VDS prerequisites
 :imagesdir: ./media/
 :keywords:
 
-include::_include/Deploying.Azure.WVD.vds_v5.4_prerequisites.adoc[]
+include::_include/Deploying.Azure.WVD.vds_v5.5_prerequisites.adoc[]
