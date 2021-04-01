@@ -5,9 +5,9 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v5.5_release_notes.adoc
 
 ////
-== VDS 5.5 release: Thursday April 1, 2021
+== VDS 5.5 release: Date to be Announced Soon
 _Components:_ 5.5 Virtual Desktop Service
-_When:_ Thursday April 1st, 2021 at 10pm – 11pm Eastern
+_When:_ Date to be announced soon
 _Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
 
 === Virtual Desktop Service
