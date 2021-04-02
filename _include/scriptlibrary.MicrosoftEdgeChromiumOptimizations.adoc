@@ -1,0 +1,12 @@
+////
+
+Comments Sections:
+Used in:
+sub.scriptlibrary.MicrosoftEdgeChromiumOptimizations.adoc
+
+////
+== Microsoft Edge Chromium Optimizations
+text
+
+=== Add activity dialog window screenshot
+image::scriptlibrary.activity.InstallNvidiaCudaDrivers.png[width=75%]
