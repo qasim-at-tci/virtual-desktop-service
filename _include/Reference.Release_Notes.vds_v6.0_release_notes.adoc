@@ -6,6 +6,15 @@ Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
 
+== VDS 6.0 hotfix: Wednesday April 7th, 2021
+_Components:_ 6.0 Virtual Desktop Service
+_When:_ Wednesday April 7th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+
+* Due to increasingly variable response times from Azure, we are increasing the amount of time we wait for a response when entering Azure credentials during the deployment wizard.
+
 == VDS 6.0 release: Thursday April 1, 2021
 _Components:_ 6.0 Virtual Desktop Service
 _When:_ Thursday April 1st, 2021 at 10pm – 11pm Eastern
