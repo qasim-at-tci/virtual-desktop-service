@@ -159,7 +159,7 @@ The components of VDS deployments and workspaces can be organized into several l
 === End user clients
 Users can connect to their WVD desktop and/or from a variety of endpoint types. Microsoft has published client applications for Windows, macOS, Android and iOS. Additionally, a web client is available for client-less access.
 
-There are some Linux think-client vendors who have published endpoint client for WVD. These are listed at https://docs.microsoft.com/en-us/azure/virtual-desktop/linux-overview
+There are some Linux thin-client vendors who have published endpoint client for WVD. These are listed at https://docs.microsoft.com/en-us/azure/virtual-desktop/linux-overview
 
 === VDS control plane components
 ==== VDS REST API
