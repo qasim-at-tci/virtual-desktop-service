@@ -32,6 +32,12 @@ Users connecting with the VDS for Windows client today will still be able to con
 Please contact ng-vds-support@netapp.com with any questions you may have.
 ////
 
+== Date: Thursday April 15, 2020 at 11pm Eastern
+_Impact:_ Users will see the RDP client update the next time they launch it
+
+=== Bug Fixes
+* Resolve an issue where network test results wouldn’t be sent as intended
+
 == Date: Thursday April 1, 2020 at 11pm Eastern
 _Impact:_ Users will see the RDP client update the next time they launch it
 
