@@ -467,7 +467,7 @@ Scroll your cursor over the line for the target Deployment to display the Config
 NOTE: It may take several minutes for all the virtual machines in the deployment to stop or start.
 
 === Create and manage VM images
-VDS contains functionality for creating and managing virtual machine images for future deployments. To reach this functionality, navigate to: VDS > Deployments > Deployment Name > Provisioning Collections. The “VDI Image Collection” features are documented here: https://flightschool.cloudjumper.com/cwms/provisioning-collections/
+VDS contains functionality for creating and managing virtual machine images for future deployments. To reach this functionality, navigate to: VDS > Deployments > Deployment Name > Provisioning Collections. The “VDI Image Collection” features are documented here: link:Management.Deployments.provisioning_collections.html[]
 
 === Configure Azure cloud backup service
 VDS can natively configure and manage Azure Cloud Backup, an Azure PaaS service for backing up virtual machines. Backup Policies can be assigned to individual machines or groups of machine by type or host pool. Details are found here: link:Management.System_Administration.configure_backup.html[]

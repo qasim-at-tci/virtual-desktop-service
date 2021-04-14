@@ -17,5 +17,5 @@ keywords:
 :keywords:
 
 include::_include/scriptlibrary.overview.adoc[]
-
 include::_include/scriptlibrary.AdobeReader.adoc[]
+include::_include/scriptlibrary.addappactivity.adoc[]

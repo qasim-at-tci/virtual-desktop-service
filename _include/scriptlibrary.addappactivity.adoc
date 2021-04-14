@@ -1,0 +1,20 @@
+=== Add application install/uninstall activity
+In order for a script in the repository to take any action, an activity must be created to associate that script with a selected trigger. In this example activity will install/uninstall this application when the app is added to or removed from the workspace (from the _Workspace > Applications_ page in VDS).
+
+VDS scripted events offers many other types of activity triggers such as _Create Server_ which could be used as an alternative to the _Application Install_ (or _Application Uninstall_) event type. Using _Create Server_ would simply run this app install against all newly created VMs in VDS. _Create Server_ and other triggers are documented and can be explored link:Management.Scripted_Events.scripted_events.html[here].
+
+NOTE: This application will need to be present in the VDS application library.  This link:Management.Applications.application_entitlement_workflow.html#add-applications-to-the-app-catalog[section] of the app entitlement for RDS article covers adding apps to the library.
+
+.To create an activity and link this script to an action:
+. Navigate to the _Scripted Events_ section in VDS
+. Under _Activities_ click _+ Add Activity_
+. In the opened dialog window enter the following information:
+* *Name:* Name this activity
+* *Description:* Optionally enter a description
+* *Deployment* Select the desired deployment from dropdown
+* *Script:* Select the install (or uninstall) script from the dropdown.  This could be the global script or customer script you've cloned and customized.
+* *Arguments:* Leave blank
+* *Enabled checkbox:* `Check` the box
+* *Event Type:* Select `Application Install` (or Application Uninstall) from dropdown
+* *Application:* Select this application from dropdown
+* *Shortcut Path:* Enter the default shortcut path for this application (noted above)

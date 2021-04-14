@@ -5,7 +5,7 @@ summary: Script documentation - Nvidia Grid Drivers
 keywords:
 ---
 
-= Scripted Event Documentation - Nvidia Grid Drivers
+= Scripted Event Documentation - Nvidia GRID Drivers
 
 :toc: macro
 :hardbreaks:
@@ -17,5 +17,5 @@ keywords:
 :keywords:
 
 include::_include/scriptlibrary.overview.adoc[]
-
 include::_include/scriptlibrary.NvidiaGridDrivers.adoc[]
+include::_include/scriptlibrary.manualactivity.adoc[]

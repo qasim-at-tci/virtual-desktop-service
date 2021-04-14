@@ -1,0 +1,12 @@
+////
+
+Comments Sections:
+Used in:
+sub.scriptlibrary.MicrosoftEdgeChromiumOptimizations.adoc
+
+////
+== Microsoft Edge Chromium Optimizations
+In Microsoft Edge Chromium 89, Microsoft added functionality to limit resource consumption of the Microsoft Edge Chromium browser tabs.  This global script applies settings to limit background tabs to timeout and stop consuming resources after 15 minutes.  Background tabs that are playing audio are not impacted.
+
+Details can be found link:https://blogs.windows.com/msedgedev/2021/03/04/edge-89-performance/[here].
+ 
