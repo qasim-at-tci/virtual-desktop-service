@@ -1,0 +1,19 @@
+---
+sidebar: sidebar
+permalink: Architectural.change_data_layer.Azure_Files.html
+summary: Step-by-step guide to change storage platform to Azure Files
+keywords:
+---
+
+= Redirecting Storage Platform to Azure Files
+
+:toc: macro
+:hardbreaks:
+:toclevels: 2
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+:keywords:
+
+include::_include/Architectural.change_data_layer.Azure_Files.adoc[]
