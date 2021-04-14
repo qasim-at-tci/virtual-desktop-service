@@ -68,6 +68,9 @@ entries:
 #      url: /
   - title: Change Data Layer
     url: /Architectural.change_data_layer.html
+    entries:
+      - title: Azure Files
+        url: /Architectural.change_data_layer.Azure_Files.html
   - title:  Migrate Data into VDS
     url: /Architectual.migrate_data_into_vds.html
   - title: Upgrade WVD v1 to v2
