@@ -5,6 +5,16 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
+
+== VDS 6.0 hotfix: Friday April 16th, 2021
+_Components:_ 6.0 Virtual Desktop Service
+_When:_ Friday April 16th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+
+* Resolve an issue with automated certificate creation that arose after last night’s update that improved automated certificate management
+
 == VDS 6.0 release: Thursday April 15, 2021
 _Components:_ 6.0 Virtual Desktop Service
 _When:_ Thursday April 15th, 2021 at 10pm – 11pm Eastern
