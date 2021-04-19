@@ -1,7 +1,7 @@
 
 ////
 
-This is a draft for v6, not yet published
+Deploying.Azure.WVD.Deploying_WVD_in_Azure_v6.html
 Comments Sections:
 Used in:
 
