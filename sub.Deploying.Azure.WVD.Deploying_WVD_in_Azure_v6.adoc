@@ -16,4 +16,4 @@ keywords:
 :imagesdir: ./media/
 :keywords:
 
-include::_include/Deploying.Azure.WVD.Deploying_WVD_in_Azure_v6_DRAFT.adoc[]
+include::_include/Deploying.Azure.WVD.Deploying_WVD_in_Azure_v6.adoc[]

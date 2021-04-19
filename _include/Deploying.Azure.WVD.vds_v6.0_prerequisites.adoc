@@ -2,7 +2,7 @@
 ////
 
 Comments Sections:
-Used in: sub.Deploying.Azure.WVD.vds_v5.5_prerequisites.adoc
+Used in: sub.Deploying.Azure.WVD.vds_v6.0_prerequisites.adoc
 
 ////
 
