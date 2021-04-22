@@ -56,3 +56,16 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 ** For WVD and Windows 10, use the VDI collection type to ensure the Windows 10 OS is present
 ** For a Windows Server OS, use the Shared collection type
 * Assorted proactive security and performance enhancements
+
+== VDS 6.0 release
+_Components:_ 6.0 Virtual Desktop Service
+_When:_ Date to be announced soon
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+
+* The primary function of this update is to prepare deployments to leverage the VDS v6 UI in the future via update the version of .NET installed from 4.7.2 to 4.8.0
+* Support for future deployment automation enhancements in GCP
+* Support for Windows Server 2019 in GCP
+* Minor Command Center functional updates
+* Support for Windows Server 2019 and Office 2019 SPLA license keys
