@@ -73,3 +73,29 @@ image::Deploying.Azure.WVD.Azure_Marketplace-8a6d6.png[]
 +
 [.thumb]
 image::Deploying.Azure.WVD.Azure_Marketplace-6bb58.png[]
+
+== Resolving Common Issues
+=== Failure to fetch Azure AD Profile
+
+This generic error message doesn’t tell you what the issue actually is. The reason a user sees this message is cookie related - this can happen if the user has third party cookies blocked in their browser. This setting is activated by default when in Incognito mode in Google Chrome. Re-enabling third party cookies allows you to proceed with ordering VDS via the Marketplace.
+
+Users can resolve this issue via the Settings section of each browser. The specific location in each browser is:
+
+* Chrome: these settings are in the Privacy and Security section
+* Edge/Edge Chromium: these settings are in the Privacy section
+* Firefox: these settings are in the Privacy & Security section
+* Internet Explorer: these settings are in the Trusted Sites section
+
+Note: if you are on a corporate network (VPN, etc.) then your organization may have applied these controls in your browser for you. You can check another browser to see if third party cookies are still enabled there, and if they are not then you should contact your system administrator.
+
+=== Inability to access VDS
+
+There is another element that can present a barrier to Marketplace purchases – an organization’s controls around what websites a user can access. Unfortunately, this is often unclear to users and can present a scenario where users aren’t sure how to proceed.
+
+This can manifest in several ways:
+
+* Organizations expressly disallow access to specific websites
+* Organizations disallow access to any website except expressly allowed websites
+* Organizations quarantine any website the first time a user accesses it (common Cisco Umbrella/OpenDNS functionality)
+
+Users can test this issue by attempting the same process from outside the corporate network or from a mobile device. If that resolves the issue and you’re able to proceed, it is a corporate-controlled web browser setting. Please contact your system administrator to allow access for the purchase of this service and for future updates to this service.
