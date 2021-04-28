@@ -6,6 +6,24 @@ Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
 
+== VDS 6.0 release: Thursday April 29, 2021
+_Components:_ 6.0 Virtual Desktop Service
+_When:_ Thursday April 29th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Introduce Start on Connect feature for Personal WVD host pools
+* Introduce Storage context in the Workspace module
+* Introduce Storage (Azure NetApp Files) monitoring via Cloud Insights integration
+** IOPs monitoring
+** Latency monitoring
+** Capacity monitoring
+* Improved logging for VM Cloning actions
+* Bug fix for a specific workload scheduling scenario
+* Bug fix for not displaying a VM’s time zone in a certain scenario
+* Bug fix for not logging out a WVD user in a certain scenario
+* Updates to automatically generated emails to reflect NetApp branding
+
 == VDS 6.0 hotfix: Friday April 16th, 2021
 _Components:_ 6.0 Virtual Desktop Service
 _When:_ Friday April 16th, 2021 at 10pm – 11pm Eastern
