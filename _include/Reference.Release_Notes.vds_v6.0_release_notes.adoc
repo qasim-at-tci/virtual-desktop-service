@@ -5,6 +5,41 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
+== VDS 6.0 release
+_Components:_ 6.0 Virtual Desktop Service
+_When:_ Thursday June 10th, 2021 at 10pm eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Technical enhancements:
+* Update the version of the .NET framework installed on each VM from v4.7.2 to v4.8.0
+* Additional back-end enforcement of the use of https:// and TLS 1.2 or greater between the Local Control Plane team and any other entity
+* Bug fix for the Delete Backup Operation in the Command Center – this now properly references the time zone of CWMGR1
+* Rename the Command Center action from Azure File share to Azure Files share
+* Naming convention updates in Azure Shared Image Gallery
+* Improved concurrent user login count collection
+* Update to outbound traffic allowed from CWMGR1, if restricting traffic outbound from the CWMGR1 VM
+* If you are not restricting outbound traffic from CWMGR1, you do not have to make any updates here
+* If you are restricting outbound traffic from CWMGR1, please allow access to vdctoolsapiprimary.azurewebsites.net. Note: you no longer need to allow access to vdctoolsapi.trafficmanager.net.
+
+=== Deployment enhancements:
+* Lay the foundation for future support of custom prefixes in server names
+* Improved process automation and redundancies for Azure deployments
+* Numerous deployment automation enhancements for Google Cloud Platform deployments
+* Support for Windows Server 2019 in Google Cloud Platform deployments
+* Bug fix for a subset of scenarios where the Windows 10 20H2 EVD image
+
+=== Service delivery enhancements:
+* Introduces Cloud Insights integration, delivering streaming performance data for User Experience, VM and Storage layers
+* Introduces a function that allows you to quickly navigate to a VDS page visited recently
+* Substantially improved list (Users, Groups, Servers, Applications, etc.) loading times for Azure deployments
+* Introduces the ability to easily export lists of Users, Groups, Servers, Admins, Reports, etc.
+* Introduces the ability to control what VDS MFA methods are available for customers (customer prefers email vs. SMS, for example)
+* Introduces customizable “from” fields for VDS self-service password reset emails
+* Introduces the option to only allow VDS self-service password reset emails to go to specified domains (company owned vs. personal, for example)
+* Introduces an update that can prompt the user to add their email to their account so that they can use it or MFA/self-service password resets
+* When starting a stopped deployment, start all VMs within the deployment as well
+* Performance improvement for determining which IP address to assign to newly created Azure VMs
+
 
 == VDS 6.0 release: Thursday April 29, 2021
 _Components:_ 6.0 Virtual Desktop Service
@@ -74,16 +109,3 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 ** For WVD and Windows 10, use the VDI collection type to ensure the Windows 10 OS is present
 ** For a Windows Server OS, use the Shared collection type
 * Assorted proactive security and performance enhancements
-
-== VDS 6.0 release
-_Components:_ 6.0 Virtual Desktop Service
-_When:_ Date to be announced soon
-_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
-
-=== Virtual Desktop Service
-
-* The primary function of this update is to prepare deployments to leverage the VDS v6 UI in the future via update the version of .NET installed from 4.7.2 to 4.8.0
-* Support for future deployment automation enhancements in GCP
-* Support for Windows Server 2019 in GCP
-* Minor Command Center functional updates
-* Support for Windows Server 2019 and Office 2019 SPLA license keys
