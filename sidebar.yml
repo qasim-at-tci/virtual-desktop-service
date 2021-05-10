@@ -443,7 +443,10 @@ entries:
 #      entries:
 #    - title: Test VDCTools
 #      entries:
-
+  - title: Advanced
+    entries:
+    - title: FSLogix Profile Shrink
+      url: /Advanced.fslogix_profile_shrink.html
 
 - title: NetApp VDS v5.4 videos
   entries:
