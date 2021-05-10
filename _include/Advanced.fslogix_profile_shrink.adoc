@@ -1,0 +1,14 @@
+
+////
+
+Comments Sections:
+Used in:
+sub.Advanced.fslogix_profile_shrink.adoc
+
+////
+
+== Overview
+VDS has a built-in profile shrink operation that runs nightly.  This automation will automatically shrink the FSLogix container of a user's profile if 5GB or more can be saved.  This automation runs nightly at 12:01am.  The 5GB threshold is configurable in DCConfig, found on the CWMGR1 server.
+
+[.thumb]
+image::Advanced.fslogix_profile_shrink-ea982.png[]
