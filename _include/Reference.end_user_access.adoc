@@ -19,8 +19,8 @@ Windows Virtual Desktop environments can be accessed from a variety of endpoint 
 ==== NetApp VDS Client for Windows
 The NetApp VDS Client for Windows is the best way for users to connect to their RDS environment. This simple installer allows the users to connect with just their user name and password. No server or gateway configuration is required. Printing and Local drive mapping are automatically enabled and this method has the highest performance.
 
-===== VDS client url whitelisting
-In the event that outbound network connections are controller and in order to guarantee that they can continue to use the NetApp VDS Client for Windows for Windows, we recommend adding the following to the whitelist:
+===== VDS client url safelisting
+In the event that outbound network connections are controller and in order to guarantee that they can continue to use the NetApp VDS Client for Windows for Windows, we recommend adding the following to the safelist:
 * api.cloudworkspace.com
 * vdsclient.app
 * api.vdsclient.app

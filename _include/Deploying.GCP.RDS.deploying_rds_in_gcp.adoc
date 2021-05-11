@@ -328,7 +328,7 @@ image:GCP_Deploy26.png[]
 The following settings can be defined at deployment and/or selected post-deployment.
 
 ... _Enable Remote App:_ Remote app presents applications as streaming applications instead of (or in addition to) presenting a full remote desktop session.
-... _Enable App Locker:_ VDS contains applications deployment and entitlement functionality, by default the system will show/hide applications to the end users. Enabling App Locker will enforce application access via a GPO whitelist.
+... _Enable App Locker:_ VDS contains applications deployment and entitlement functionality, by default the system will show/hide applications to the end users. Enabling App Locker will enforce application access via a GPO safelist.
 ... _Enable Workspace User Data Storage:_ Determine if end users have a need to have data storage access in their virtual desktop. For RDS deployments, this setting should always be checked to enable data access for user profiles.
 ... _Disable Printer Access:_ VDS can block access to local printers.
 ... _Permit Access to Task Manager:_ VDS can enable/disable end user access to the Task Manager in Windows.

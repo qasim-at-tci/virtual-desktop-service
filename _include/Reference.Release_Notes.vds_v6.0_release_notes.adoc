@@ -40,6 +40,28 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 * When starting a stopped deployment, start all VMs within the deployment as well
 * Performance improvement for determining which IP address to assign to newly created Azure VMs
 
+== VDS 6.0 release: Thursday May 13, 2021
+_Components:_ 6.0 Virtual Desktop Service
+_When:_ Thursday May 13th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+
+* Introduction of additional WVD host pool properties
+* Introduce additional automation resilience in Azure deployments in the event of back-end service issues
+* Include the server name in the new browser tab when using the Connect to Server feature
+* Display the quantity of users in each group
+* Enhanced resilience for the Connect to Server feature in all deployments
+* Additional enhancements to setting MFA options for organizations and end users
+** If SMS is set as the only MFA option available, require a phone number but not an email address
+** If email is set as the only MFA option available, require an email address but not a phone number
+** If both SMS and email are set as options for MFA, require both an email address and a phone number
+* Clarity improvement - remove the size of an Azure Backup snapshot, as Azure doesn’t return the size of the snapshot
+* Add the ability to delete a snapshot in non-Azure environments
+* Bug fix for WVD host pool creation when using special characters
+* Bug fix for workload scheduling for host pool via the Resources tab
+* Bug fix for an error prompt that appears when cancelling a bulk user import
+* Bug fix for a possible scenario with settings of application added to a Provisioning Collection
 
 == VDS 6.0 release: Thursday April 29, 2021
 _Components:_ 6.0 Virtual Desktop Service

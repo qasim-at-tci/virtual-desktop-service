@@ -5,6 +5,18 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v5.4_release_notes.adoc
 
 ////
+
+==  VDS 5.4 release: Thursday May 13, 2021
+_Components:_ 5.4 Virtual Desktop Service
+_When:_ Thursday May 13th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Bug fix for WVD host pool creation when using special characters
+* Automation enhancements for long domain names in the CWA Setup deployment wizard
+* Bug fix for cloning servers in a subset of scenarios in GCP deployments
+* Bug fix for a scenario where deleting a snapshot wasn’t functioning as intended
+
 == VDS 5.4 release: Thursday April 29, 2021
 _Components:_ 5.4 Virtual Desktop Service
 _When:_ Thursday April 29th, 2021 at 10pm – 11pm Eastern

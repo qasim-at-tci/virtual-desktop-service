@@ -10,11 +10,11 @@ Used in: sub.Reference.Release_Notes.vds_windows_client_release_notes.adoc
 ////
 == Date: TBD
 
-_Impact:_ Users may be prompted that their whitelisting needs to be updated next time they launch the client
+_Impact:_ Users may be prompted that their safelisting needs to be updated next time they launch the client
 
-We will be making an update to our Virtual Desktop Service Client for Windows so that it can utilize the latest API. This means that organizations that whitelist access to outbound locations from inside a network would need to make adjustments to the whitelist either now or in the future.
+We will be making an update to our Virtual Desktop Service Client for Windows so that it can utilize the latest API. This means that organizations that safelist access to outbound locations from inside a network would need to make adjustments to the safelist either now or in the future.
 
-Users connecting with the VDS for Windows client today will still be able to connect if no whitelist changes are made, but in order to guarantee that they can continue to use the VDS Client for Windows into the future we recommend adding the following to the whitelist:
+Users connecting with the VDS for Windows client today will still be able to connect if no safelist changes are made, but in order to guarantee that they can continue to use the VDS Client for Windows into the future we recommend adding the following to the safelist:
 
 * api.cloudworkspace.com
 * vdsclient.app
@@ -24,13 +24,31 @@ Users connecting with the VDS for Windows client today will still be able to con
 
 .Senario descriptions:
 
-* There is no impact if a customer does not whitelist outbound traffic from their network
-* If a customer whitelists outbound traffic from their network (or wishes to do so) and makes the updates above: no impact, access will flow as intended
-* If a customer already whitelists outbound traffic from their network for the VDS Client for Windows but does not make the updates above: no impact, access will flow as intended using their current whitelisted addresses until further notice
-* If a customer whitelists outbound traffic from their network but does not whitelist anything for VDS Client for Windows: user access and telemetry will not be able to function
+* There is no impact if a customer does not safelist outbound traffic from their network
+* If a customer safelists outbound traffic from their network (or wishes to do so) and makes the updates above: no impact, access will flow as intended
+* If a customer already safelists outbound traffic from their network for the VDS Client for Windows but does not make the updates above: no impact, access will flow as intended using their current safelisted addresses until further notice
+* If a customer safelists outbound traffic from their network but does not safelist anything for VDS Client for Windows: user access and telemetry will not be able to function
 
 Please contact ng-vds-support@netapp.com with any questions you may have.
 ////
+
+== Date: Thursday May 13, 2020 at 11pm Eastern
+_Impact:_ Users will see the RDP client update the next time they launch it
+
+=== Improvements
+* Additional automation to ensure resource availability for end users
+
+=== Updates
+* The URL that is required for access to automatic updates is changing. If you are not actively safelisting inbound traffic you will not need to make any changes.
+** All end users will continue to have access to their desktops even if no changes are made
+** Organizations actively safelisting inbound traffic will need to ensure that end user devices have access to the new URLs above to ensure access to automatic updates
+** The current sources for updates are:
+*** Primary: cwc.cloudworkspace.com
+*** Secondary: cloudjumper.com
+** The new sources for updates will be:
+*** Primary: bin.vdsclient.app
+*** Secondary: cwc.cloudworkspace.com
+** New users installing the Cloud Workspace Client for Windows will still need access to the URLs listed link:https://docs.netapp.com/us-en/virtual-desktop-service/Reference.end_user_access.html#remote-desktop-services[here]
 
 == Date: Thursday April 29, 2020 at 11pm Eastern
 Impact: Users will see the RDP client update the next time they launch it
@@ -133,7 +151,7 @@ _Impact:_  Users will see the RDP client update the next time they launch it
 === Considerations
 
 * The Cloud Workspace Client for Windows will continue to auto-update as long as a user launches it prior to 4/2. If a user does not launch the Cloud Workspace Client for Windows prior to 4/2 their connection to their desktop will still function, but they will need to uninstall and reinstall the Cloud Workspace Client for Windows to resume auto-update functionality.
-* If your organization uses web filtering, please whitelist access to cwc.cloudworkspace.com and cwc-cloud.cloudworkspace.com so that auto-update functionality remains in place
+* If your organization uses web filtering, please safelist access to cwc.cloudworkspace.com and cwc-cloud.cloudworkspace.com so that auto-update functionality remains in place
 
 == Date: Thursday January 9, 2020 at 11pm Eastern
 
