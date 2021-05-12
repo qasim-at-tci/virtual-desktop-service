@@ -62,6 +62,9 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 * Bug fix for workload scheduling for host pool via the Resources tab
 * Bug fix for an error prompt that appears when cancelling a bulk user import
 * Bug fix for a possible scenario with settings of application added to a Provisioning Collection
+* Update to the email address sending notifications/messages – messages will now be sent from noreply@vds.netapp.com
+** Customers safelisting inbound email addresses should add this email address
+
 
 == VDS 6.0 release: Thursday April 29, 2021
 _Components:_ 6.0 Virtual Desktop Service
