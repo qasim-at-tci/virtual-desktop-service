@@ -31,6 +31,12 @@ Users connecting with the VDS for Windows client today will still be able to con
 
 Please contact ng-vds-support@netapp.com with any questions you may have.
 ////
+== Date: Thursday May 27, 2020 at 11pm Eastern
+_Impact:_ Users will see the RDP client update the next time they launch it
+
+=== Bug Fixes
+
+* Improved clarity in the error message displayed if the password provided is not long enough
 
 == Date: Thursday May 13, 2020 at 11pm Eastern
 _Impact:_ Users will see the RDP client update the next time they launch it

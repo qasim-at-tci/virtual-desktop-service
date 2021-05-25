@@ -5,6 +5,8 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
+
+
 == VDS 6.0 release: Thursday June 10, 2021
 _Components:_ 6.0 Virtual Desktop Service
 _When:_ Thursday June 10th, 2021 at 10pm eastern
@@ -39,6 +41,25 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 * Introduces an update that can prompt the user to add their email to their account so that they can use it or MFA/self-service password resets
 * When starting a stopped deployment, start all VMs within the deployment as well
 * Performance improvement for determining which IP address to assign to newly created Azure VMs
+
+== VDS 6.0 release: Thursday May 27, 2021
+_Components:_ 6.0 Virtual Desktop Service
+_When:_ Thursday May 27th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+
+* Introduce Start on Connect for Pooled session hosts in WVD host pools
+* Introduce User performance metrics via Cloud Insights integration
+* Display the Servers tab more prominently in the Workspaces module
+* Allow the restoration of a VM via Azure Backup if the VM has been deleted from VDS
+* Improved handling of Connect to Server functionality
+* Improved handling of variables when creating and updating certificates automatically
+* Bug fix for an issue where clicking an X in a drop-down menu didn’t clear the selection as expected
+* Improved reliability and automatic error handling for SMS message prompts
+* Update to the User Support role – this can now terminate processes for a logged in user
+* Assorted proactive security and performance enhancements
+
 
 == VDS 6.0 release: Thursday May 13, 2021
 _Components:_ 6.0 Virtual Desktop Service
