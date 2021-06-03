@@ -42,7 +42,6 @@ image:ReferenceArchitectureGCPRDS.png[width=75%]
 *** vdsclient.app
 *** api.vdsclient.app
 *** bin.vdsclient.app
-*** vdsclient.blob.core.windows.net
 ** Enhanced features:
 *** VDS Wake on Demand
 *** ThinPrint client and lice nsing

@@ -70,7 +70,7 @@ Normal support business hours: Monday-Friday, 7:00am-7:00pm Central Time.
 
 === Downloads
 ==== Remote Desktop Services (RDS) Clients
-* link:https://cwc.cloudworkspace.com/download/cwc-win-setup.exe[VDS RDS client for Windows]
+* link:https://bin.vdsclient.app/v5client/cwc-win-setup.exe[VDS RDS client for Windows]
 
 * link:https://login.cloudworkspace.com/[VDS Web Client]
 
@@ -90,4 +90,4 @@ Normal support business hours: Monday-Friday, 7:00am-7:00pm Central Time.
 ==== Other Downloads
 * link:https://cloudjumper.com/wp-content/uploads/2019/12/RemoteScanEnterpriseUser.zip[RemoteScan Client]
 
-* link:https://cloudjumper.com/cloudworkspaceclient/designer/Cloud%20Workspace%20Designer.exe[VDS RDS Windows Client Designer]
+* link:https://bin.vdsclient.app/v5client/cwc-designer-win-setup.exe[VDS RDS Windows Client Designer]
