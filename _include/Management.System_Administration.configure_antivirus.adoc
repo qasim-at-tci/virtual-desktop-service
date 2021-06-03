@@ -26,6 +26,8 @@ Our overall guidance is that while VDS platform automation is generally not impa
     C:\Program Files\CloudWorkspace\CwAgent\CwAgent.exe
     C:\Program Files\CloudWorkspace\CW Automation Service\cw.automation.service.exe
     C:\Program Files\CloudWorkspace\CwVmAutomationService\CwVmAutomationService.exe
+    C:\Program Files (x86)\Myrtille\bin\Myrtille.Printer.exe
+    C:\Program Files (x86)\Myrtille\bin\Myrtille.Services.exe
 
 Additionally, we recommend safe-listing the following processes on client servers:
 
