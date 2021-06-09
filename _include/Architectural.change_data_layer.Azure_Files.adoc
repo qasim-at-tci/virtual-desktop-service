@@ -1,0 +1,133 @@
+
+////
+
+Comments Sections:
+Used in: sub.Architectural.change_data_layer.Azure_Files.adoc
+
+////
+
+== Overview
+Virtual Desktop Service deployment technologies allow for a variety of storage options depending on the underlying infrastructure. This guide addresses how to make a change to using Azure Files post-deployment.
+
+=== Pre-requisites
+* AD Connect installed and set up
+* Azure global admin account
+* AZFilesHybrid PowerShell module https://github.com/Azure-Samples/azure-files-samples/releases
+* AZ PowerShell module
+* ActiveDirectory PowerShell module
+
+=== Create the new storage layer
+. Log in to Azure with the global admin account
+. Create a new Storage Account in the same location and resource group as the workspace
++
+image:Architectural.ChangeDataLayer.AzureFiles1.png[]
++
+. Create the data, home, and pro file shares under the storage account
++
+image:Architectural.ChangeDataLayer.AzureFiles2.png[]
++
+
+
+=== Set Up Active Directory
+. Create a new Organization Unit named "`Storage Account`" under the Cloud Workspace > Cloud Worksapce Service Accounts OU
++
+image:Architectural.ChangeDataLayer.AzureFiles3.png[]
++
+. Enable AD DS authentication (must be done using PowerShell) https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable
+.. DomainAccountType should be “`ServiceLogonAccount`”
+.. OraganizationalUnitDistinguishedName is the distinguished name of the OU created in the previous step (ie “`OU=Storage Account,OU=Cloud Workspace Service Accounts,OU=Cloud Workspace,DC=TrainingKrisG,DC=onmicrosoft,DC=com`”)
+
+=== Set the Roles for the Shares
+. In the Azure portal, give "`Storage File Data SMB Share Elevated Contributor`” role to CloudWorkspaceSVC and Level3 Technicians
++
+image:Architectural.ChangeDataLayer.AzureFiles4.png[]
++
+. Give "Storage File Data SMB Share Contributor" role to the “`<company code>-all users`” group
++
+image:Architectural.ChangeDataLayer.AzureFiles5.png[]
++
+
+
+=== Create the directories
+. Create a directory in each share (data, home, pro) using the company code as the name (In this example, the company code is "`kift`")
++
+image:Architectural.ChangeDataLayer.AzureFiles6.png[]
++
+. In the <company code> directory of the pro share, create a "`ProfileContainers`" directory
++
+image:Architectural.ChangeDataLayer.AzureFiles7.png[]
++
+
+
+=== Set the NTFS Permissions
+. Connect to the shares
+.. Navigate to the sahre under the storage accont int he Azure portal, click the three dots, then click Connect
++
+image:Architectural.ChangeDataLayer.AzureFiles8.png[]
++
+.. Choose Active Directory for Authentication method and click the Copy to clipboard icon in the lower right corner of the code
++
+image:Architectural.ChangeDataLayer.AzureFiles9.png[]
++
+.. Log in to the CWMGR1 server with an account that is a member of the Level3 Technicians group
+.. Run the copied code in PowerShell to map the drive
+.. Do the same for each share while choosing a different drive letter for each
+. Disable inheritance on the <company code> directories
+. System and the AD Group ClientDHPAccess should have Full Control to the <company code> directories
+. Domain Computers should have Full Control to the <company code> directory in the pro share as well as the ProfileContainers directory within
+. The <company code>-all users AD group should have List folder/read data permissons to the <company code> directories in the home and pro shares
+. The <company code>-all users AD group should have the below Special permissions for the directory in the data share
++
+image:Architectural.ChangeDataLayer.AzureFiles10.png[]
++
+. The <company code>-all users AD group should have the Modify permission on the ProfileContainers directory
+
+=== Update Group Policy Objects
+. Update the GPO <company code> users located under Cloud Workspace > Cloud Workspace Companies > <company code> > <company code>-desktop users
+.. Change the Home drive mapping to point the new home share
++
+image:Architectural.ChangeDataLayer.AzureFiles11.png[]
++
+.. Change the Folder Redirection to point the home share for Desktop and Documents
++
+image:Architectural.ChangeDataLayer.AzureFiles12.png[]
++
+image:Architectural.ChangeDataLayer.AzureFiles13.png[]
++
+
+
+=== Update the share in Active Directory Users and Computers
+. With classic or hybrid AD, the share in the company code OU needs to be updated to the new location
++
+image:Architectural.ChangeDataLayer.AzureFiles14.png[]
++
+
+
+=== Update Data/Home/Pro paths in VDS
+. Log in to CWMGR1 with an account in the Level3 Technicians group and launch Command Center
+. In the Command drop down, select Change Data/Home/Pro Folders
+. Click the Load Data button, then be sure the proper company code is selected from the drop down
+. Enter the new patsh for the data, home, and pro locations
+. Uncheck the Is Windows Server box
+. Click the Execute Command button
++
+image:Architectural.ChangeDataLayer.AzureFiles15.png[]
++
+
+
+=== Update FSLogix profile paths
+. Open registry editory on the session hosts
+. Edit the VHDLoccations entry at HKLM\SOFTWARE\FSLogix\Profiles to be the UNC path to the new ProfileContainers directory
++
+image:Architectural.ChangeDataLayer.AzureFiles16.png[]
++
+
+
+=== Configure Backups
+. It is recommended to set up and configure a backup policy for the new shares
+. Create a new Recovery Services Vault in the same resource group
+. Navigate to the vault and select Backup under Getting Started
+. Choose Azure for where the workload is running and Azure file share for what you want to back up then click Backukp
+. Select the storage account used to create the shares
+. Add the shares to back up
+. Edit and Create a backup policy that fits your needs

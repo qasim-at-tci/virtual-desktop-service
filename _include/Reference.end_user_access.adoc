@@ -25,7 +25,6 @@ In the event that outbound network connections are controller and in order to gu
 * vdsclient.app
 * api.vdsclient.app
 * bin.vdsclient.app
-* vdsclient.blob.core.windows.net
 
 
 Upon request, a branded version of this application can be created with the Partner’s logos and contact information. Please contact support to request this.

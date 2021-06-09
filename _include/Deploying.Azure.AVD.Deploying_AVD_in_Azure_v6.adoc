@@ -235,8 +235,9 @@ VDS Setup can be used to deploy and configure one or two RDS Gateways. These gat
 
 * HTML5 Gateway
 +
-VDS Setup can be used to deploy and configure one or two HTML 5 Gateways. These gateways serve up an HTML 5 VDS  access client (e.g. https://login.cloudworkspace.com) based on the RemoteSpark technology. Licensing for this component is typically included in the cost of VDS licensing. When two HTM5 CW Portals are selected, VDS Setup deploys 2 VMs and configures them to load balance incoming HTML5 user sessions.
-Note that when using Multiple virtual machine option - even if you are only intend to support RDP connections for your RDS workloads - at least 1 HTML5 gateway is highly recommended to enable Connect to Server functionality from VDS.
+VDS Setup can be used to deploy and configure one or two HTML5 Gateways. These gateways host the HTML5 services used by the _Connect to Server_ feature in VDS and the web-based VDS Client (H5 Portal). When two HTML5 Portals are selected, VDS Setup deploys 2 VMs and configures them to load balance incoming HTML5 user sessions.
++
+NOTE: When using Multiple server option (even if users will only connect via the installed VDS Client) at least one HTML5 gateway is highly recommended to enable _Connect to Server_ functionality from VDS.
 
 * Gateway Scalability Notes
 +
