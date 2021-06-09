@@ -1,0 +1,20 @@
+---
+sidebar: sidebar
+permalink: video_azure_AVDRDS_optimize_resources_54.html
+summary: Optimize Azure resource consumption in VDS 5.4
+keywords:
+---
+
+= Optimize Azure Resource Consumption in VDS 5.4
+
+:toc: macro
+:hardbreaks:
+:toclevels: 2
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+:keywords: Azure Virtual Desktop
+
+include::_include/video_azure_AVDRDS_optimize_resources_54.adoc[]
+=

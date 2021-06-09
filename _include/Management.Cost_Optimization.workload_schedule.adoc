@@ -27,26 +27,26 @@ Similar Functionality is built into the VDS Web client for RDS deployments. The 
 
 Wake on Demand functionality is not built into the Microsoft RD client (for Windows or any other platform) nor any other 3rd party RD clients.
 
-=== Wake on demand for Windows Virtual Desktop
-In WVD, the only clients that can be used to connect are Microsoft provided and thus do not contain the Wake on Demand functionality.
+=== Wake on demand for Azure Virtual Desktop
+In AVD, the only clients that can be used to connect are Microsoft provided and thus do not contain the Wake on Demand functionality.
 
-VDS does include a self-service Wake on Demand function for WVD via the VDS Web Client. The web client can be used to wake the appropriate resources, then the connection can be initiated via the standard WVD client.
+VDS does include a self-service Wake on Demand function for AVD via the VDS Web Client. The web client can be used to wake the appropriate resources, then the connection can be initiated via the standard AVD client.
 
-.To wake VM resources in WVD:
+.To wake VM resources in AVD:
 . Connect to the VDS Web Client at link:https://login.cloudworkspace.com[]
-. Login with the user WVD credentials
-** A warning message will prompt _"You have Microsoft's WVD services available. Click HERE to view the status and start offline Host Pools."_
+. Login with the user AVD credentials
+** A warning message will prompt _"You have Microsoft's AVD services available. Click HERE to view the status and start offline Host Pools."_
 . After clicking "_HERE_" you'll see a list of available Host Pools along with a link to "Click to Start" link under the status column
 +
 image:Wake_on_Demand_h5_1.png[]
 . _Click to Start_ the link and wait 1-5 minutes for the status to change to "Online" and show a green status icon
-. Connect to WVD using your normal process
+. Connect to AVD using your normal process
 
 
 == Live Scaling
-Live Scaling works in conjunction with Workload Scheduling by managing the number of online session hosts during the scheduled active time as configured in Workload Scheduling. When scheduled to be offline, Live Scaling won't control session host availability. Live scaling only impacts Shared Users and Shared Servers in RDS and WVD environments, VDI Users and VDI VMs are excluded from these calculations. All other VM types are unaffected.
+Live Scaling works in conjunction with Workload Scheduling by managing the number of online session hosts during the scheduled active time as configured in Workload Scheduling. When scheduled to be offline, Live Scaling won't control session host availability. Live scaling only impacts Shared Users and Shared Servers in RDS and AVD environments, VDI Users and VDI VMs are excluded from these calculations. All other VM types are unaffected.
 
-NOTE: The WVD _load balancer type_ setting interacts with this configuration, so care should be taken in choosing that setting as well. Cost savings are maximized with a depth-first type while end user performance is maximized with a breadth-first type.
+NOTE: The AVD _load balancer type_ setting interacts with this configuration, so care should be taken in choosing that setting as well. Cost savings are maximized with a depth-first type while end user performance is maximized with a breadth-first type.
 
 Enabling Live Scaling with no options checked, the automation engine will automatically select values for the Number of Extra Powered on Servers, Shared Users Per Server, and Max Shared Users Per Server.
 
@@ -58,7 +58,7 @@ Live Scaling turns the servers on as users log on and turns them off as users lo
 
 Powering an additional server is automatically triggered once the total active users reaches the number of Shared Users per Server multiplied by the total number of Powered On Servers.
 
-   e.g. With 5 Shared Users per Server set (this is the default # we’ll use for all examples in this article) and 2 servers running, a 3rd server won’t be powered up until server 1 & 2 both have 5 or more active users. Until that 3rd server is available, new connections will be load balanced all available servers. In RDS and WVD Breadth mode, Load balancing sends users to the server with the fewest active users (like water flowing to the lowest point). In WVD Depth mode, Load balancing sends users to servers in a sequential order, incrementing when the Max Shared Users number is reached.
+   e.g. With 5 Shared Users per Server set (this is the default # we’ll use for all examples in this article) and 2 servers running, a 3rd server won’t be powered up until server 1 & 2 both have 5 or more active users. Until that 3rd server is available, new connections will be load balanced all available servers. In RDS and AVD Breadth mode, Load balancing sends users to the server with the fewest active users (like water flowing to the lowest point). In AVD Depth mode, Load balancing sends users to servers in a sequential order, incrementing when the Max Shared Users number is reached.
 
 Live Scaling will also turn off servers to save costs. When a server has 0 active users, and another server has available capacity below _Shared Users per Server_ the empty server will be powered down.
 
@@ -66,7 +66,7 @@ Powering on the next server can take a few minutes. In certain situations the sp
 
 . Enable _Number of Extra Powered on Servers_ so that the additional server(s) will be on and available to accept connections and allow time for the platform to spin up additional servers.
 .. When activated, the number is added to the calculated need. For example, if set to 1 extra server (and with 6 users connected) two servers would be active because of the users count, plus a 3rd due to the _Extra Powered on Servers_ setting.
-. Enable _Max Shared Users Per Server_ to place a hard limit on the number of users allowed per server. New connections that would exceed this limit will be refused, the end user will get an error message and need to try again in a couple minutes once the additional server is available. If set, this number also defines the depth of WVD Shared servers.
+. Enable _Max Shared Users Per Server_ to place a hard limit on the number of users allowed per server. New connections that would exceed this limit will be refused, the end user will get an error message and need to try again in a couple minutes once the additional server is available. If set, this number also defines the depth of AVD Shared servers.
 .. Assuming the delta between _Shared Users Per Server_ and _Max Shared Users Per Server_ is appropriate, the new servers should become available before the max is reached in all but the most extreme situations (unusually large login storms).
 
 == VM resource scaling

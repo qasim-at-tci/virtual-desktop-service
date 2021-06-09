@@ -77,7 +77,7 @@ WARNING: This automated process relies on a custom ps1 and a pre-built xml.  It 
 
 === Customization steps
 
-. Download and edit the hosted ps1 from http://getwvd.com/proplus_minus_onedrive.ps1
+. Download and edit the hosted ps1 from http://getAVD.com/proplus_minus_onedrive.ps1
 .. Built your own xml file (outlined above) and upload to your own URL
 .. Edit the “$download” variable to point to your own URL your own configuration xml file
 .. Edit the “$officeapps” variable to include all the shortcuts installed by your configuration xml file
@@ -96,8 +96,8 @@ To install O365 ProPlus you’ll create a new script with the following settings
 
 . No Script File
 . Execute With: powershell.exe
-. Arguments (Optional): Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString(‘http://getwvd.com/proplus_minus_onedrive.ps1’))
-. Edit the http://getwvd.com/proplus_minus_onedrive.ps1 and replace with the URL to your own hosted ps1 file.
+. Arguments (Optional): Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString(‘http://getAVD.com/proplus_minus_onedrive.ps1’))
+. Edit the http://getAVD.com/proplus_minus_onedrive.ps1 and replace with the URL to your own hosted ps1 file.
 +
 image:office10.png[]
 

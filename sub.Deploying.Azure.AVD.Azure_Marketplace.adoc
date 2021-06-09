@@ -1,0 +1,19 @@
+---
+sidebar: sidebar
+permalink: Deploying.Azure.AVD.Azure_Marketplace.html
+summary: Step-by-step guide to purchase VDS through the Azure Marketplace
+keywords:
+---
+
+= Azure Marketplace Steps
+
+:toc: macro
+:hardbreaks:
+:toclevels: 2
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+:keywords:
+
+include::_include/Deploying.Azure.AVD.Azure_Marketplace.adoc[]

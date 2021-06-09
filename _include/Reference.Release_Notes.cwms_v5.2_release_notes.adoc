@@ -225,7 +225,7 @@ Impact:  Access to Cloud Workspace desktops and application services for End Use
 
 === 5.2 Cloud Workspace Management Suite
 
-Improved link in the WVD tab in the Workspaces module
+Improved link in the AVD tab in the Workspaces module
 Bug fix for a scenario where clicking a link to a Workspace from the Data Centers module wouldn’t take you to that Workspace
 Bug fix for a scenario where updating the contact info for a Primary Admin would remove their designation as Primary Admin
 
@@ -298,7 +298,7 @@ Impact:  Access to Cloud Workspace desktops and application services for End Use
 
 === 5.2 Cloud Workspace Management Suite
 
-Add Windows Virtual Desktop section to the CWMS interface
+Add Azure Virtual Desktop section to the CWMS interface
 Allow a CWMS Admin to not set a company logo under Settings -> Logo
 Add requirement for External ID when updating an app in a Custom App Catalog
 

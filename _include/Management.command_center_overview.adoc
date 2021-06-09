@@ -42,7 +42,7 @@ To review logs, click the *View All Logs* button.  The raw text file will open, 
 ==== Command List
 //* link:Management.command_center.operations.add_cloud_workspace_to_company.html[Add Cloud Workspace to Company]
 //* link:Management.command_center.operations.add_existing_server_to_company.html[Add Existing Server to Company]
-//* link:Management.command_center.operations.allow_new_wvd_connections.html[Allow New WVD Connections]
+//* link:Management.command_center.operations.allow_new_AVD_connections.html[Allow New AVD Connections]
 //* link:Management.command_center.operations.backup_list.html[Backup List]
 //* link:Management.command_center.operations.backup_restore_to_drive.html[Backup Restore to Drive]
 //* link:Management.command_center.operations.backup_server_now.html[Backup Server Now]

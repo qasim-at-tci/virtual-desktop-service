@@ -40,11 +40,11 @@ image:user_detail.png[]
 == Edit user security settings
 
 * VDI User Enabled – an RDS Setting that, when enabled, builds a dedicated VM session host and assigned this user as the only user that connect to it. As part of activating this checkbox the CWMS administrator is prompted to select the VM Image, Size and Storage Type.
-** WVD VDI users should be managed on the WVD page as a VDI hostpool.
+** AVD VDI users should be managed on the AVD page as a VDI hostpool.
 * Account Expiration Enabled – allows the CWMS administrator to set an expiration date on the end user account.
 * Force Password Reset at Next Login – Prompts the end user to change their password at next login.
 * Multi-Factor Auth Enabled – Enables MFA for the end user and prompts them to setup MFA at next login.
-* Mobile Drive Enabled – A legacy feature not used in current deployments of RDS or WVD.
+* Mobile Drive Enabled – A legacy feature not used in current deployments of RDS or AVD.
 * Local Drive Access Enabled – Allows the end user to access their local device storage from the cloud environment including Copy/Paste, USB Mass storage and system drives.
 * Wake on Demand Enabled – For RDS users connecting via the CW Client for Windows, enabling this will give the end user permission to take their environment when connecting outside of normal working hours as defined by Workload Schedule.
 

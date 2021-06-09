@@ -62,9 +62,9 @@ CWManagerX is a web service that provides the communication link between the loc
 
 DC Config is a Windows application that provides Deployment specific configuration parameters that are not exposed in the VDS Web Application interface. The DC Config log details the activities executed when configuration changes are made in DC Config.
 
-=== CWvDCDeployment log
+=== CAVDCDeployment log
 
-    CWvDCDeployment.log
+    CAVDCDeployment.log
 
 CW vDC Deployment is a Windows application that performs the tasks necessary to create a Deployment in Azure. The log tracks the configuration of the Cloud Workspace windows services, default GPOs, and routing and resource rules.
 

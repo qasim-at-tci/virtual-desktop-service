@@ -6,19 +6,19 @@ entries:
   entries:
   - title: Azure
     entries:
-    - title: Windows Virtual Desktop
+    - title: Azure Virtual Desktop
       entries:
-      - title: Deploying WVD in Azure
-        url: /Deploying.Azure.WVD.Deploying_WVD_in_Azure.html
-      - title: Supplemental - WVD with Existing AD
-        url: /Deploying.Azure.WVD.Supplemental_WVD_with_existing_AD.html
-      - title: VDS v5.4 Components and Permissions (WVD)
-        url: /Deploying.Azure.WVD.vds_v5.4_components_and_permissions.html
-      - title: VDS v5.4 Prerequisites (WVD)
-        url: /Deploying.Azure.WVD.vds_v5.4_prerequisites.html
-      - title: VDS v6.0 Prerequisites (WVD)
-        url: /Deploying.Azure.WVD.vds_v6.0_prerequisites.html
-#    - title: Install VDS on existing WVD
+      - title: Deploying AVD in Azure
+        url: /Deploying.Azure.AVD.Deploying_AVD_in_Azure.html
+      - title: Supplemental - AVD with Existing AD
+        url: /Deploying.Azure.AVD.Supplemental_AVD_with_existing_AD.html
+      - title: VDS v5.4 Components and Permissions (AVD)
+        url: /Deploying.Azure.AVD.vds_v5.4_components_and_permissions.html
+      - title: VDS v5.4 Prerequisites (AVD)
+        url: /Deploying.Azure.AVD.vds_v5.4_prerequisites.html
+      - title: VDS v6.0 Prerequisites (AVD)
+        url: /Deploying.Azure.AVD.vds_v6.0_prerequisites.html
+#    - title: Install VDS on existing AVD
 #      url: /
 #  - title: Remote Desktop Services (RDS)
 #    entries:
@@ -73,12 +73,12 @@ entries:
         url: /Architectural.change_data_layer.Azure_Files.html
   - title:  Migrate Data into VDS
     url: /Architectual.migrate_data_into_vds.html
-  - title: Upgrade WVD v1 to v2
-    url: Architectual.upgrade_wvd_v1_to_v2.html
+  - title: Upgrade AVD v1 to v2
+    url: Architectual.upgrade_AVD_v1_to_v2.html
   - title: Renew SSL Certificate
     url: /Architectural.Wildcard_SSL_certificate_renewal_process.html
   - title: VDS Teardown Guide
-    url: /Architectural.wvd_teardown_guide.html
+    url: /Architectural.AVD_teardown_guide.html
 
 - title: Management
   entries:
@@ -92,8 +92,8 @@ entries:
     entries:
     - title: App Entitlement for RDS
       url: /Management.Applications.application_entitlement_workflow.html
-    - title: App Entitlement for WVD
-      url: /Management.Applications.wvd_application_entitlement_workflow.html
+    - title: App Entitlement for AVD
+      url: /Management.Applications.AVD_application_entitlement_workflow.html
   - title: Scripted Events
     entries:
     - title: Scriped Events Overview
@@ -108,8 +108,8 @@ entries:
 #          url: /Management.command_center.operations.add_cloud_workspace_to_company.html
 #       - title: Add Existing Server to Company
 #         url: /Management.command_center.operations.add_existing_server_to_company.html
-#       - title: Allow New WVD Connections
-#         url: /Management.command_center.operations.allow_new_wvd_connections.html
+#       - title: Allow New AVD Connections
+#         url: /Management.command_center.operations.allow_new_AVD_connections.html
 #       - title: Backup List
 #         url: /Management.command_center.operations.backup_list.html
 #       - title: Backup Restore to Drive
@@ -383,16 +383,16 @@ entries:
       url: /scriptlibrary.MicrosoftOneDrive.html
     - title: Microsoft Teams
       url: /scriptlibrary.MicrosoftTeams.html
-    - title: Microsoft Teams for WVD
-      url: /scriptlibrary.MicrosoftTeamsWVD.html
+    - title: Microsoft Teams for AVD
+      url: /scriptlibrary.MicrosoftTeamsAVD.html
     - title: Nvidia Cuda Drivers
       url: /scriptlibrary.NvidiaCudaDrivers.html
     - title: Nvidia Grid Drivers
       url: /scriptlibrary.NvidiaGridDrivers.html
-    - title: WVD Screen Capture Protection
-      url: /scriptlibrary.WVDScreenCaptureProtection.html
-    - title: Zoom for WVD
-      url: /scriptlibrary.ZoomVDI-WVD.html
+    - title: AVD Screen Capture Protection
+      url: /scriptlibrary.AVDScreenCaptureProtection.html
+    - title: Zoom for AVD
+      url: /scriptlibrary.ZoomVDI-AVD.html
 #  - title: Glossary
 #    entries:
 #    - title: VDS
@@ -427,7 +427,7 @@ entries:
 #            url: /
 #          - title: Wake on Demand
 #            url: /
-#        - title: WVD
+#        - title: AVD
 #          url: /
 #      - title: App Services
 #        entries:
@@ -452,15 +452,15 @@ entries:
   entries:
   - title: NetApp TV content
     url: /video_content_netapptv.html
-  - title: Deploy WVD or RDS
-    url: /video_azure_WVDRDS_deploy_54.html
-  - title: Add WVD host pool in Azure
-    url: /video_azure_WVD_hostpool_54.html
-  - title: Manage WVD users and app groups
-    url: /video_azure_WVD_users_appgroups_54.html
+  - title: Deploy AVD or RDS
+    url: /video_azure_AVDRDS_deploy_54.html
+  - title: Add AVD host pool in Azure
+    url: /video_azure_AVD_hostpool_54.html
+  - title: Manage AVD users and app groups
+    url: /video_azure_AVD_users_appgroups_54.html
   - title: Managing resources and minimizing costs
-    url: /video_azure_WVDRDS_optimize_resources_54.html
-  - title: Automate application management for WVD and RDS
+    url: /video_azure_AVDRDS_optimize_resources_54.html
+  - title: Automate application management for AVD and RDS
     url: /video_VDS_day_in_the_life.html
-  - title: Upgrade v1 WVD host pool to v2
-    url: /Architectual.upgrade_wvd_v1_to_v2.html
+  - title: Upgrade v1 AVD host pool to v2
+    url: /Architectual.upgrade_AVD_v1_to_v2.html

@@ -62,7 +62,7 @@ image:ReferenceArchitectureGCPRDS.png[width=75%]
 
 
 ==== Storage layer
-In RDS deployed by VDS, the storage strategy is designed so that no persistent user/company data resides on the WVD session VMs. Persistent data for user profiles, user files and folders, and corporate/application data are hosted on one or more data volume(s) hosted on an independent data layer.
+In RDS deployed by VDS, the storage strategy is designed so that no persistent user/company data resides on the AVD session VMs. Persistent data for user profiles, user files and folders, and corporate/application data are hosted on one or more data volume(s) hosted on an independent data layer.
 
 FSLogix is a profile containerization technology that solves many user profile issues (like data sprawl and slow logins) by mounting a user profile container (VHD or VHDX format) to the session host at session initialization.
 

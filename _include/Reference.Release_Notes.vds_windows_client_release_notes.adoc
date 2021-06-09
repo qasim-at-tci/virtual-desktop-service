@@ -66,7 +66,7 @@ _Impact:_  Users will see the RDP client update the next time they launch it
 
 === Improvements
 
-* Update the latest WVD RDP Client available for installation
+* Update the latest AVD RDP Client available for installation
 
 == Date: Thursday May 28, 2020 at 11pm Eastern
 
@@ -185,7 +185,7 @@ _Impact:_  Users will see the RDP client update the next time they launch it
 
 === Improvements
 
-* Add WVD elements:
+* Add AVD elements:
 
 == Date: Thursday October 3, 2019 at 11pm Eastern
 
@@ -206,12 +206,12 @@ _Impact:_  Users will see the RDP client update the next time they launch it
 
 === Improvements
 
-* Add WVD elements:
-** If the end user has access to WVD resources, present a WVD tab
-** The WVD tab will provide options to:
-*** Install the WVD RD Client, if it isn’t already installed
-*** If the WVD RD Client is installed, launch the RD Client
-*** Launch Web Client to take the user to the WVD HTML5 login page
+* Add AVD elements:
+** If the end user has access to AVD resources, present a AVD tab
+** The AVD tab will provide options to:
+*** Install the AVD RD Client, if it isn’t already installed
+*** If the AVD RD Client is installed, launch the RD Client
+*** Launch Web Client to take the user to the AVD HTML5 login page
 *** Click Done to go back to the prior page
 
 == Date: Thursday, September 5, 2019 at 11pm Eastern

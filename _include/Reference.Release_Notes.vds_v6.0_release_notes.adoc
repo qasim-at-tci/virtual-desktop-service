@@ -60,7 +60,7 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 
 === Virtual Desktop Service
 
-* Introduce Start on Connect for Pooled session hosts in WVD host pools
+* Introduce Start on Connect for Pooled session hosts in AVD host pools
 * Introduce User performance metrics via Cloud Insights integration
 * Display the Servers tab more prominently in the Workspaces module
 * Allow the restoration of a VM via Azure Backup if the VM has been deleted from VDS
@@ -79,7 +79,7 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 
 === Virtual Desktop Service
 
-* Introduction of additional WVD host pool properties
+* Introduction of additional AVD host pool properties
 * Introduce additional automation resilience in Azure deployments in the event of back-end service issues
 * Include the server name in the new browser tab when using the Connect to Server feature
 * Display the quantity of users in each group
@@ -90,7 +90,7 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 ** If both SMS and email are set as options for MFA, require both an email address and a phone number
 * Clarity improvement - remove the size of an Azure Backup snapshot, as Azure doesn’t return the size of the snapshot
 * Add the ability to delete a snapshot in non-Azure environments
-* Bug fix for WVD host pool creation when using special characters
+* Bug fix for AVD host pool creation when using special characters
 * Bug fix for workload scheduling for host pool via the Resources tab
 * Bug fix for an error prompt that appears when cancelling a bulk user import
 * Bug fix for a possible scenario with settings of application added to a Provisioning Collection
@@ -104,7 +104,7 @@ _When:_ Thursday April 29th, 2021 at 10pm – 11pm Eastern
 _Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
 
 === Virtual Desktop Service
-* Introduce Start on Connect feature for Personal WVD host pools
+* Introduce Start on Connect feature for Personal AVD host pools
 * Introduce Storage context in the Workspace module
 * Introduce Storage (Azure NetApp Files) monitoring via Cloud Insights integration
 ** IOPs monitoring
@@ -113,7 +113,7 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 * Improved logging for VM Cloning actions
 * Bug fix for a specific workload scheduling scenario
 * Bug fix for not displaying a VM’s time zone in a certain scenario
-* Bug fix for not logging out a WVD user in a certain scenario
+* Bug fix for not logging out a AVD user in a certain scenario
 * Updates to automatically generated emails to reflect NetApp branding
 
 == VDS 6.0 hotfix: Friday April 16th, 2021
@@ -172,6 +172,6 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 * Improved visibility of the actions menu available in HTML5 connections via Connect to Server or RDS user sessions via HTML5
 * Increase the QTY of characters supported in the name of an activity Scripted Events
 * Updated Provisioning Collections OS choices by type
-** For WVD and Windows 10, use the VDI collection type to ensure the Windows 10 OS is present
+** For AVD and Windows 10, use the VDI collection type to ensure the Windows 10 OS is present
 ** For a Windows Server OS, use the Shared collection type
 * Assorted proactive security and performance enhancements

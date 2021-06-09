@@ -12,7 +12,7 @@ _When:_ Thursday May 13th, 2021 at 10pm – 11pm Eastern
 _Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
 
 === Virtual Desktop Service
-* Bug fix for WVD host pool creation when using special characters
+* Bug fix for AVD host pool creation when using special characters
 * Automation enhancements for long domain names in the CWA Setup deployment wizard
 * Bug fix for cloning servers in a subset of scenarios in GCP deployments
 * Bug fix for a scenario where deleting a snapshot wasn’t functioning as intended
@@ -42,7 +42,7 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 
 === Virtual Desktop Service
 * Continuous, ongoing updates to improve connectivity and communication with the vSphere / vCloud hypervisor
-* Bug fix for an individual scenario where a user couldn’t clone a WVD session host
+* Bug fix for an individual scenario where a user couldn’t clone a AVD session host
 
 == VDS 5.4 hotfix: Tuesday March 23, 2021
 _Components:_ 5.4 Virtual Desktop Service
@@ -259,7 +259,7 @@ _When:_ Thursday October 22nd, 2020 at 10pm - 11pm Eastern
 _Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
 
 === VDS
-* If a VDS admin deletes a WVD host pool, automatically unassign users from that host pool
+* If a VDS admin deletes a AVD host pool, automatically unassign users from that host pool
 * Introduce improved, renamed automation driver – Command Center – in CWMGR1
 * Bug fix for Workload Scheduling behavior in a Bug fix for updating site details when that resides in AWS
 * Bug fix for Wake on Demand activation with specific Live Scaling settings applied
@@ -340,12 +340,12 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 
 === VDS
 * Performance enhancement – the list of users for which Cloud Workspaces can be enabled will now populate faster
-* Bug fix for handling site-specific WVD session host server imports
+* Bug fix for handling site-specific AVD session host server imports
 * Deployment automation enhancement - introducing an optional setting to direct AD requests to CWMGR1
 * Improved handling of variables when importing servers to ensure that CWAgent is installed properly
 * Introduce additional RBAC controls over TestVDCTools – require membership in the CW-Infrastructure group for access
 * Fine tuning of permissions – grant admins in the CW-CWMGRAccess group access to registry entries for VDS settings
-* Update for Wake on Demand for personal WVD host pools to reflect updates for the Spring Release – only power on the VM assigned to the user
+* Update for Wake on Demand for personal AVD host pools to reflect updates for the Spring Release – only power on the VM assigned to the user
 * Update company code naming conventions in Azure deployments – this prevents an issue where Azure Backup cannot restore from a VM that starts with a number
 * Replace deployment automation's use of Sendgrid for SMTP transmission with a global control plane to resolve an issue with SendGrid's back-end - this results in a slimmer deployment footprint with fewer permissions/components
 
@@ -371,7 +371,7 @@ _Impact:_ Access to desktops and application services for End Users will remain 
 * Improved enforcement mechanism to confirm FSLogix is installed
 * Support for multi-server configurations for Existing AD deployments
 * Reduce the number of API calls used to return a list of Azure templates
-* Improved management of users in WVD Spring Release / v2 host pools
+* Improved management of users in AVD Spring Release / v2 host pools
 * Referential link update in server resource nightly report
 * Fix for changing administrative passwords to support improved, slimmer permission sets in AD
 * Bug fix for creating VMs from a template via tools on CWMGR1
@@ -391,7 +391,7 @@ _Impact:_  Access to desktops and application services for End Users will remain
 
 === VDS Setup
 
-* Bug fix for a referential link in the WVD tab
+* Bug fix for a referential link in the AVD tab
 
 == VDS 5.4 release: Thurs., August 27, 2020
 
@@ -401,11 +401,11 @@ _Impact:_  Access to desktops and application services for End Users will remain
 
 === Virtual Desktop Service
 
-* Introduction of the ability to use the VDS interface to automatically update WVD host pools from the Fall Release to the Spring release
+* Introduction of the ability to use the VDS interface to automatically update AVD host pools from the Fall Release to the Spring release
 * Streamlined automation to reflect recent updates resulting in a slimmer permission set required
 * Deployment automation enhancements for GCP, AWS and vSphere deployments
 * Bug fix for a Scripted Events scenario where date and time info was being displayed as current date and time
-* Bug fix for deploying large quantities of WVD session host VMs at the same time
+* Bug fix for deploying large quantities of AVD session host VMs at the same time
 * Support for an increased amount of Azure VM types
 * Support for an increased amount of GCP VM types
 * Improved handling of variables during deployment
@@ -456,7 +456,7 @@ _Impact:_  Access to desktops and application services for End Users will remain
 
 === Virtual Desktop Service
 
-* Add Connect to Server option for WVD session hosts from WVD module
+* Add Connect to Server option for AVD session hosts from AVD module
 * Bug fix for a subset of scenarios where additional admin accounts cannot be created
 * Update naming convention for resource defaults – change Power User to VDI User
 
@@ -486,7 +486,7 @@ _Impact:_  Access to desktops and application services for End Users will remain
 * Add Ephemeral OS Disk support
 * Improved tooltips for storage selections
 * Disallow a scenario where a user became able to enter negative user counts
-* Display the file server when using both WVD and File Server selections
+* Display the file server when using both AVD and File Server selections
 
 == VDS 5.4 hotfix: Mon., August 3, 2020
 
@@ -528,7 +528,7 @@ _Impact:_  Access to desktops and application services for End Users will remain
 === Azure Cost Estimator
 
 * Ask if the customer’s data needs to be HA and if so, define if cost and labor savings are available by leveraging a PaaS service like Azure NetApp Files
-* Update and standardize default storage type for both WVD & RDS workloads to Premium SSD
+* Update and standardize default storage type for both AVD & RDS workloads to Premium SSD
 * Behind the scenes performance enhancements
 *
 == VDS 5.4 hotfix: Thurs., July 23, 2020
@@ -550,7 +550,7 @@ _Impact:_  Access to desktops and application services for End Users will remain
 === Virtual Desktop Service
 
 * Proactive security enhancements behind the scenes
-* Streamlining the WVD App Group provisioning process by auto-selecting the WVD Workspace if only one WVD Workspace is present
+* Streamlining the AVD App Group provisioning process by auto-selecting the AVD Workspace if only one AVD Workspace is present
 * Performance improvements in the Workspace module via paginating Groups under the Users and Groups tab
 * If VDS admins select Azure in the Deployments tab, direct the user to log into VDS Setup instead
 
@@ -571,7 +571,7 @@ _Impact:_  Access to desktops and application services for End Users will remain
 
 === HTML5 Login Experience
 
-* Bug fix for Wake on Demand for session hosts leveraging the WVD Spring Release (WVD v2)
+* Bug fix for Wake on Demand for session hosts leveraging the AVD Spring Release (AVD v2)
 * Updates to reflect NetApp branding/phrasing
 
 === Azure Cost Estimator

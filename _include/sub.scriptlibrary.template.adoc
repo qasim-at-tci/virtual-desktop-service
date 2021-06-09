@@ -12,7 +12,7 @@ permalink: scriptlibrary.Microsoft_Edge_Chromium.html
 permalink: scriptlibrary.Microsoft_Office_365.html
 permalink: scriptlibrary.Microsoft_One_Drive.html
 permalink: scriptlibrary.Microsoft_Teams.html
-permalink: scriptlibrary.Microsoft_Teams_for_WVD.html
+permalink: scriptlibrary.Microsoft_Teams_for_AVD.html
 permalink: scriptlibrary.Nvidia_CUDA_Drivers.html
 permalink: scriptlibrary.Nvidia_GRID_Drivers.html
 summary: Script documentation - Adobe Reader
@@ -23,7 +23,7 @@ summary: Script documentation - Microsoft Edge Chromium
 summary: Script documentation - Microsoft Office 365
 summary: Script documentation - Microsoft One Drive
 summary: Script documentation - Microsoft Teams
-summary: Script documentation - Microsoft Teams for WVD
+summary: Script documentation - Microsoft Teams for AVD
 summary: Script documentation - Nvidia CUDA Drivers
 summary: Script documentation - Nvidia GRID Drivers
 keywords:
@@ -37,7 +37,7 @@ keywords:
 = Scripted Event Documentation - Microsoft Office 365
 = Scripted Event Documentation - Microsoft One Drive
 = Scripted Event Documentation - Microsoft Teams
-= Scripted Event Documentation - Microsoft Teams for WVD
+= Scripted Event Documentation - Microsoft Teams for AVD
 = Scripted Event Documentation - Nvidia CUDA Drivers
 = Scripted Event Documentation - Nvidia GRID Drivers
 
@@ -58,7 +58,7 @@ include::_include/scriptlibrary/sub.scriptlibrary.Microsoft_Edge_Chromium.adoc[]
 include::_include/scriptlibrary/sub.scriptlibrary.Microsoft_Office_365.adoc[]
 include::_include/scriptlibrary/sub.scriptlibrary.Microsoft_One_Drive.adoc[]
 include::_include/scriptlibrary/sub.scriptlibrary.Microsoft_Teams.adoc[]
-include::_include/scriptlibrary/sub.scriptlibrary.Microsoft_Teams_for_WVD.adoc[]
+include::_include/scriptlibrary/sub.scriptlibrary.Microsoft_Teams_for_AVD.adoc[]
 include::_include/scriptlibrary/sub.scriptlibrary.Nvidia_CUDA_Drivers.adoc[]
 include::_include/scriptlibrary/sub.scriptlibrary.Nvidia_GRID_Drivers.adoc[]
 
@@ -76,7 +76,7 @@ Microsoft_Edge_Chromium
 Microsoft_Office_365
 Microsoft_One_Drive
 Microsoft_Teams
-Microsoft_Teams_for_WVD
+Microsoft_Teams_for_AVD
 Nvidia_CUDA_Drivers
 Nvidia_GRID_Drivers
 
