@@ -15,7 +15,7 @@ remotesub.Management.User_Administration.manage_application_access.adoc
 == Overview
 VDS has a robust application automation and entitlement functionality built-in. This functionality allows users to have access to different applications while connecting to the same session host(s). This is accomplished by some custom GPOs hiding shortcuts along with automation selectively placing shortcuts on the users’ desktops.
 
-NOTE: This workflow only applies to RDS deployments.  For WVD application entitlement documentation, please see link:Management.Applications.wvd_application_entitlement_workflow.html[Application Entitlement Workflow for WVD]
+NOTE: This workflow only applies to RDS deployments.  For AVD application entitlement documentation, please see link:Management.Applications.AVD_application_entitlement_workflow.html[Application Entitlement Workflow for AVD]
 
 Applications can be assigned to users directly or via Security groups managed in VDS.
 

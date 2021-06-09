@@ -1,0 +1,21 @@
+---
+sidebar: sidebar
+permalink: scriptlibrary.AVDShortpath.html
+summary: Script documentation - AVD Screen Capture Protection
+keywords:
+---
+
+= Scripted Event Documentation - Enable AVD Shortpath
+
+:toc: macro
+:hardbreaks:
+:toclevels: 2
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+:keywords:
+
+include::_include/scriptlibrary.overview.adoc[]
+include::_include/scriptlibrary.AVDShortpath.adoc[]
+include::_include/scriptlibrary.manualactivity.adoc[]

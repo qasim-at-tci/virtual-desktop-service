@@ -73,7 +73,7 @@ _Impact:_  Access to desktops and application services for End Users will remain
 * Add Ephemeral OS Disk support
 * Improved tooltips for storage selections
 * Disallow a scenario where a user became able to enter negative user counts
-* Display the file server when using both WVD and File Server selections
+* Display the file server when using both AVD and File Server selections
 
 == VDS 5.3 release: Thurs., July 30, 2020
 
@@ -83,12 +83,12 @@ _Impact:_  Access to desktops and application services for End Users will remain
 
 === Virtual Desktop Service
 
-* Bug fix for a subset of scenarios where WVD Diagnostics were not displaying properly
+* Bug fix for a subset of scenarios where AVD Diagnostics were not displaying properly
 
 === Azure Cost Estimator
 
 * Ask if the customer’s data needs to be HA and if so, define if cost and labor savings are available by leveraging a PaaS service like Azure NetApp Files
-* Update and standardize default storage type for both WVD & RDS workloads to Premium SSD
+* Update and standardize default storage type for both AVD & RDS workloads to Premium SSD
 * Behind the scenes performance enhancements
 
 == VDS 5.3 release: Thurs., July 16th, 2020
@@ -235,12 +235,12 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 
 === Cloud Workspace Tools and Services
 
-* Enable the ability to set Workload Scheduling per WVD host pool
+* Enable the ability to set Workload Scheduling per AVD host pool
 * Improved process of creating new deployments into an existing AD structure
 * Enable the ability to assign Data/Home/Profile data paths for organizations using Azure Files
 * Enable the ability to manage Resource Pools
 * Improved handling of special characters in the deployment wizard process
-* Adjustments to automated HTML5 components as a part of deployment for RDS (not WVD) workloads
+* Adjustments to automated HTML5 components as a part of deployment for RDS (not AVD) workloads
 
 === REST API
 
@@ -278,12 +278,12 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 
 === Cloud Workspace Management Suite
 
-* Continual enhancements to validation of WVD host pool VM creation (accounting for Azure process times due to surge in Azure activity due to COVID-19)
-* WVD stability improvement when initializing WVD – if the WVD tenant name is not unique to WVD globally, CloudJumper will replace it with an updated string unique to to the Deployment/tenant.
+* Continual enhancements to validation of AVD host pool VM creation (accounting for Azure process times due to surge in Azure activity due to COVID-19)
+* AVD stability improvement when initializing AVD – if the AVD tenant name is not unique to AVD globally, CloudJumper will replace it with an updated string unique to to the Deployment/tenant.
 * Include support for special characters in email addresses in CWMS password reset functionality
-* Bug fix for a subset of scenarios when adding apps to an WVD RemoteApp app group didn’t pull apps from the Start menu
+* Bug fix for a subset of scenarios when adding apps to an AVD RemoteApp app group didn’t pull apps from the Start menu
 * Bug fix for a subset of the user activity report
-* Remove the requirement for a description of a WVD host pool (remains as and optional field)
+* Remove the requirement for a description of a AVD host pool (remains as and optional field)
 * Bug fix for a single fringe scenario where VMs in a shared host pool were tagged as VDI VMs
 
 === CWA Setup
@@ -329,7 +329,7 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 
 === Azure Cost Estimator
 
-* Updated description of WVD User types and the programs they run per Microsoft documentation
+* Updated description of AVD User types and the programs they run per Microsoft documentation
 * Increased clarity for CWMS licensing
 
 === CWMS 5.3 release: Thurs., March 19, 2020
@@ -366,12 +366,12 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 
 === HTML 5 Portal
 
-* Process enhancement for users logging in with WVD credentials
+* Process enhancement for users logging in with AVD credentials
 
 === Azure Cost Estimator
 
 * Clarity improvement for Live Scaling
-* Phrasing adjustments to match Microsoft WVD messaging
+* Phrasing adjustments to match Microsoft AVD messaging
 * Bug fix for Workload Scheduling and Live Scaling savings details in heavily customized quotes
 
 == CWMS 5.3 release: Thurs., February 20, 2020
@@ -389,7 +389,7 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 * Streamlining the process of applying policies during deployment
 * Increased security for new deployments using Azure Active Directory Domain Services
 * Increased security for new deployments – require defined subnet isolation (as opposed to flat subnets) during deployment
-* Bug fix for RDS (non-WVD) deployments when applying ThinPrint licensing
+* Bug fix for RDS (non-AVD) deployments when applying ThinPrint licensing
 * Bug fix for proper handling of whether ThinPrint is installed in DC Config
 * Additional checks and validation for organizations opting to leverage FTP functionality
 
@@ -403,9 +403,9 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 
 * Performance improvements when displaying the list of users for an organization
 * Performance improvements when displaying the list of applications for an organization
-* Improved functionality when adding Users to WVD App Groups:
+* Improved functionality when adding Users to AVD App Groups:
 * Limit the number of users imported to 425
-* If attempting to import more than 425 users, proceed with the import of the first 425 users and display that WVD’s limit for user imports is 425 and that they can proceed with additional imports in 5 minutes
+* If attempting to import more than 425 users, proceed with the import of the first 425 users and display that AVD’s limit for user imports is 425 and that they can proceed with additional imports in 5 minutes
 * Update to reflect that the number of users in a group is the number of Cloud Workspace users in a group as opposed to the total number of users in a group (which may be less when deploying into an existing Active Directory structure)
 * Enable application assignments via security group for named users that are a member of the group (nested groups will not receive the app assignment)
 
@@ -436,7 +436,7 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 === Cloud Workspace Management Suite
 
 * Improved provisioning status details during the VM creation process
-* Improved handling of automation for newly created session host VMs that are part of a WVD host pool
+* Improved handling of automation for newly created session host VMs that are part of a AVD host pool
 * Performance improvement to the User Activity report when including “Only Server Access Users”
 
 === Cloud Workspace Tools and Services
@@ -540,7 +540,7 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 === Cloud Workspace Management Suite
 
 * Improvements for CWMS availability monitoring
-* Fix for an issue with WVD app group user modal where the username is not always selected properly when it contains capital letters
+* Fix for an issue with AVD app group user modal where the username is not always selected properly when it contains capital letters
 * Fix for pagination in the Users list for ‘User Support Only’ admin role members
 * Fix for alignment of radio buttons in MFA setup dialog
 * Improvement for Dashboard/Overview page load by removing service board dependency
@@ -565,7 +565,7 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 * Improvement handling locking of the data server during new user creation
 * Fix for scenario where a client is incorrectly flagged as a cache company during workload scheduling
 * Fix to correctly update the company table when a organization is created without a workspace
-* Fix for invalid characters appended to the WVD host pool name in the local control plane database
+* Fix for invalid characters appended to the AVD host pool name in the local control plane database
 * Fix for issue with workload scheduling when a VM is listed in the local control plane database, but not the hypervisor
 * Fix for issue preventing some VMs from having drives expanded automatically in Azure hypervisor
 * Fix for client provisioning error ‘Supplied data drive not valid’
@@ -587,7 +587,7 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 * Enhancements to automated FSLogix installs
 * Updates and fixes to Live Scaling
 * Add AMD (non-GPU) VMs to the drop-down list in CWMS
-* Support for multiple tenants in the same WVD deployment
+* Support for multiple tenants in the same AVD deployment
 
 === CWA Setup
 
@@ -625,8 +625,8 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 * Bug fix for a scenario where a subset of admins creating a new host pool would not see VM templates
 * Bug fix for a scenario where navigating to a host pool, then a second host pool would sometimes display information from the first host pool
 * Bug fix where a subset of admins could not log into an older version of CWMS
-* Bug fix where navigating to WVD Diagnostics and then back to Workspaces displayed  ‘page not found’
-* Change friendly name of a user’s desktop (what appears in the WVD RDP client and in the blue bar at the top of the user’s session) to match the name of the host pool
+* Bug fix where navigating to AVD Diagnostics and then back to Workspaces displayed  ‘page not found’
+* Change friendly name of a user’s desktop (what appears in the AVD RDP client and in the blue bar at the top of the user’s session) to match the name of the host pool
 * Servers must be manually added to the pool with a checkbox “Allow New Sessions” which is unchecked by default. Checkbox was previously checked by default.
 
 === CWA Setup
@@ -644,7 +644,7 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 
 === Azure Cost Estimator
 
-* Update the default storage tier for D4s v3 VMs (the default VM type for WVD) to Premium SSD in order to match Microsoft’s default setting
+* Update the default storage tier for D4s v3 VMs (the default VM type for AVD) to Premium SSD in order to match Microsoft’s default setting
 
 === Cloud Resource App
 
@@ -659,7 +659,7 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 === Cloud Workspace Management Suite
 
 * Update for users logging into iit.hostwindow.net (the URL for the older v5.2 deployments, of which there are very few) will see a prompt indicating them to navigate to manage.cloudworkspace.com (the URL for v5.3 and future deployments)
-* Allow users to delete WVD host pools via CWMS
+* Allow users to delete AVD host pools via CWMS
 * Enhancement that allows for future branding enhancements in CWMS
 * Bug fix for an issue when validating a VDI Provisioning Collection
 
@@ -670,13 +670,13 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 === HTML5 Login Experience
 
 * We will be making a series of user experience enhancements for end users logging into their virtual desktops from login.cloudjumper.com or login.cloudworkspace.com:
-* Allow the user to view the WVD host pools the user has access to
-* Enable Wake on Demand functionality for users with the proper permissions, allowing them to log in and work at a time which a WVD session host VM is scheduled to be offline
+* Allow the user to view the AVD host pools the user has access to
+* Enable Wake on Demand functionality for users with the proper permissions, allowing them to log in and work at a time which a AVD session host VM is scheduled to be offline
 * Enable Self Service Password Reset for users that have an email or phone number set in their user account in CWMS
 
 === Azure Cost Estimator
 
-* Allow users to select Windows Active Directory VM(s) after selecting WVD for AD Connect use cases
+* Allow users to select Windows Active Directory VM(s) after selecting AVD for AD Connect use cases
 * Update the default storage quantity for all VMs to 128 GB in order to match Microsoft’s default value
 * Update the default setting for uptime hours to 220 in order to match Microsoft’s default value
 * Update the names of the workload types to match the names that Microsoft changed them to
@@ -690,13 +690,13 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 === Cloud Workspace Management Suite
 
 * Support for Server 2019 as the OS for an organization’s Workspace
-* Update to improve showing active users in a WVD Host Pool
-* Allow for multiple Organizations/Workspaces under a WVD deployment
+* Update to improve showing active users in a AVD Host Pool
+* Allow for multiple Organizations/Workspaces under a AVD deployment
 * Add “Update” button for editing multiple fields associated with an Admin
 * Add “Update” button for editing company details and contact info
 * Updated search function to use Flight School
 * Updated links in the bottom of CWMS
-* Allow for the use of a Validation Host Pool in WVD deployments – this will provide earlier access to WVD features prior to them being  GA (production release)
+* Allow for the use of a Validation Host Pool in AVD deployments – this will provide earlier access to AVD features prior to them being  GA (production release)
 * Typo fix in a prompt responding to an action taken by an admin on an AADDS deployment
 * Bug fix for a prompt for an admin that does not have App Services permissions
 
@@ -724,7 +724,7 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 
 === Azure Cost Estimator
 
-* Update pricing to reflect that WVD customers pay for Linux OS VMs instead of Windows OS VMs
+* Update pricing to reflect that AVD customers pay for Linux OS VMs instead of Windows OS VMs
 * Added an option to include relevant Microsoft licensing
 * Update to storage defaults used according to Microsoft’s updated calculator (flat vs. user count)
 * Add SQL pricing for D4s v3 VMs
@@ -770,12 +770,12 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 * User Support role fix – a subset of Admins with this role were unable to see the list of Users for their organization
 * User sorting fix – sorting by username works as intended instead of sorting by status
 * Added Heartbeat function to the Overview section of the Deployments tab, indicating the last time the deployment was polled to see if it is online
-* Workflow improvements – when clicking “back” in the WVD module, you will now be taken the Workspaces module instead of the Organizations module
+* Workflow improvements – when clicking “back” in the AVD module, you will now be taken the Workspaces module instead of the Organizations module
 * Ensure Master Client Report is present; hide the non-applicable SPLA report for non-Master Software Partners
 
 === Cloud Workspace Tools and Services
 
-* Remove the standard ThinPrint agent from Windows Virtual Desktop (WVD) servers in host pools, as this is not the supported ThinPrint agent for WVD. Instead, organizations should contact ThinPrint about their ezeep solution.
+* Remove the standard ThinPrint agent from Azure Virtual Desktop (AVD) servers in host pools, as this is not the supported ThinPrint agent for AVD. Instead, organizations should contact ThinPrint about their ezeep solution.
 * Enhanced password encryption behind the scenes
 * Bug fix for Password Enforcement Notification (PEN) where using the “change password at next logon” feature wasn’t working as intended if password expiration dates were set to null by an administrator in CWMGR1
 
@@ -802,7 +802,7 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 * Fix for a display issue where environments with Workload Scheduling set to Always Off were displaying improper settings in CWMS, despite being correctly set to Always Off behind the scenes
 * Permissions update – remove Resource Scheduling tab if the CWMS admin does not have access to the Resources function in CWMS
 * Remove the ability to add more than one VM instance in a VDI User Host Pool
-* Display fix for Max Users per Session Host in a WVD Host Pool – these values now match the values set in the Live Scaling section of the Workload Scheduling tab
+* Display fix for Max Users per Session Host in a AVD Host Pool – these values now match the values set in the Live Scaling section of the Workload Scheduling tab
 
 === Cloud Resource App
 
@@ -820,9 +820,9 @@ _Impact:_  Access to Cloud Workspace desktops and application services for End U
 
 === 5.3 Cloud Workspace Management Suite
 
-* Add a message to the WVD tab defining under which circumstances WVD is supported
-* Workflow improvements when returning from the WVD tab to the Workspace
-* Text edit in the instructions on the WVD module
+* Add a message to the AVD tab defining under which circumstances AVD is supported
+* Workflow improvements when returning from the AVD tab to the Workspace
+* Text edit in the instructions on the AVD module
 
 === 5.3 Cloud Workspace for Azure Setup
 

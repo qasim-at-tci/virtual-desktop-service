@@ -1,0 +1,16 @@
+////
+
+Used in:
+sub.scriptlibrary.ZoomVDI-AVD.adoc
+
+////
+== Zoom for VDI/AVD overview
+This script package installs/uninstalls _Zoom VDI-AVD_ using PowerShell to do the deployment.
+
+NOTE: Zoom performance is improved if audio redirection is also enabled for the VDI/AVD environment.
+
+=== Default shortcut path
+The default shortcut path will be entered below, for this application the shortcut is: `\\shortcuts\Zoom VDI.lnk`
+
+=== Add activity dialog window screenshot
+image::scriptlibrary.activity.InstallZoomVDI-AVD.png[width=75%]

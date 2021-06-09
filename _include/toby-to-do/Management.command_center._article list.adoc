@@ -9,7 +9,7 @@ Used in:
 
 == Overview
 _include/todo/Management.command_center.operations.add_existing_server_to_company.adoc
-_include/todo/Management.command_center.operations.allow_new_wvd_connections.adoc
+_include/todo/Management.command_center.operations.allow_new_AVD_connections.adoc
 _include/todo/Management.command_center.operations.backup_list.adoc
 _include/todo/Management.command_center.operations.backup_restore_to_drive.adoc
 _include/todo/Management.command_center.operations.backup_server_now.adoc

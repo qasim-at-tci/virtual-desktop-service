@@ -1,0 +1,19 @@
+---
+sidebar: sidebar
+permalink: Deploying.Azure.AVD.Deploying_AVD_in_Azure.html
+summary: Step-by-step guide to deploy VDS into Azure
+keywords:
+---
+
+= AVD Deployment Guide
+
+:toc: macro
+:hardbreaks:
+:toclevels: 2
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+:keywords:
+
+include::_include/Deploying.Azure.AVD.Deploying_AVD_in_Azure.adoc[]

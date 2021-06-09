@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: video_VDS_day_in_the_life.html
-summary: Day to Day Administration of RDS and WVD with NetApp VDS v5.4
+summary: Day to Day Administration of RDS and AVD with NetApp VDS v5.4
 keywords:
 ---
 
-= Day to Day Administration of RDS and WVD with NetApp VDS v5.4
+= Day to Day Administration of RDS and AVD with NetApp VDS v5.4
 
 :toc: macro
 :hardbreaks:
