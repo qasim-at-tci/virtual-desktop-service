@@ -16,4 +16,4 @@ keywords:
 :imagesdir: ./media/
 :keywords:
 
-include::_include/Architectual.upgrade_AVD_v1_to_v2.adoc[]
+include::_include/Architectual.upgrade_avd_v1_to_v2.adoc[]
