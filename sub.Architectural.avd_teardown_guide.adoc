@@ -16,4 +16,4 @@ keywords:
 :imagesdir: ./media/
 :keywords:
 
-include::_include/Architectural.AVD_teardown_guide.adoc[]
+include::_include/Architectural.avd_teardown_guide.adoc[]
