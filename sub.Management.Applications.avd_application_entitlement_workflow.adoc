@@ -16,4 +16,5 @@ keywords:
 :imagesdir: ./media/
 :keywords:
 
-include::_include/Management.Applications.AVD_application_entitlement_workflow.adoc[]
+include::_include/Management.Applications.avd_application_entitlement_workflow.adoc[]
+ 

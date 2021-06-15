@@ -17,5 +17,3 @@ keywords:
 :keywords:
 
 include::_include/Reference.Release_Notes.vds_v6.0_release_notes.adoc[]
-
-include::_include/Reference.Release_Notes.vds_v5.5_release_notes.adoc[]
