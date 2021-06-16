@@ -40,7 +40,7 @@ image:user_detail.png[]
 == Edit user security settings
 
 * VDI User Enabled – an RDS Setting that, when enabled, builds a dedicated VM session host and assigned this user as the only user that connect to it. As part of activating this checkbox the CWMS administrator is prompted to select the VM Image, Size and Storage Type.
-** AVD VDI users should be managed on the AVD page as a VDI hostpool.
+** AVD VDI users should be managed on the AVD page as a VDI host pool.
 * Account Expiration Enabled – allows the CWMS administrator to set an expiration date on the end user account.
 * Force Password Reset at Next Login – Prompts the end user to change their password at next login.
 * Multi-Factor Auth Enabled – Enables MFA for the end user and prompts them to setup MFA at next login.
@@ -66,4 +66,4 @@ Logged on users can be logged off by the VDS admin from the Users/Groups page in
 Displays the application deployed in this workspace. The check box provisions the apps to this specific user. Complete Application Management documentation can be found here. Access to applications can also be granted from the App interface or to Security Groups.
 
 == View/kill user processes
-Displays the processes currently running in that user’s session. Processes can be killed from this interface as well.
+Displays the processes currently running in that user’s session. Processes can be ended from this interface as well.

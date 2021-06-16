@@ -178,7 +178,7 @@ This configuration type extends an existing Active Directory domain to support t
 
 .This configuration requires:
 * An existing Active Directory domain controller that can be accessed by VMs on the Azure VNet, typically via either Azure VPN or Express Route OR a domain controller that has been created in Azure.
-* Addition of VDS components and permissions required for VDS management of AVD host pools and data volumes as they are joined to the domain. The AVD VDS Components and Permissions guide defines the required components and permissions and the deployment process requires a Domain user with domain privileges to execute the script that will create the needed elements.
+* Addition of VDS components and permissions required for VDS management of AVD host pools and data volumes as they are joined to the domain. The AVD VDS Components and Permissions guide defines the required components and permissions and the deployment process requires a Domain user with domain privileges to run the script that will create the needed elements.
 * Note that the VDS deployment creates a VNet by default for VDS created VMs. The VNet can be either peered with existing Azure network VNets or the CWMGR1 VM can be moved to an existing VNet with the required subnets pre-defined.
 
 ==== Credentials and domain preparation tool

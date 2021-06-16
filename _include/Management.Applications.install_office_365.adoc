@@ -70,9 +70,9 @@ WARNING: This automated process relies on a custom ps1 and a pre-built xml.  It 
 
 === Process steps summary
 
-. Execute command to download and execute hosted .ps1
+. Run command to download and run hosted .ps1
 . ps1 downloads the hosted Office Deployment Configuration .xml (Screenshot of the Office Configuration Tool settings used for this XML is here)
-. ps1 executes ProPlus Install referencing the .xml
+. ps1 runs ProPlus Install referencing the .xml
 . ps1 copies the Microsoft Office Shortcuts into a single folder for app publishing purposes
 
 === Customization steps
@@ -85,7 +85,7 @@ WARNING: This automated process relies on a custom ps1 and a pre-built xml.  It 
 image:office9.png[]
 
 . Upload the edited ps1 file to your own hosting URL
-. Edit the Scripted Event Script to download and execute the customized and self-hosted ps1 (step 3.1. below)
+. Edit the Scripted Event Script to download and run the customized and self-hosted ps1 (step 3.1. below)
 
 === Scripted events steps
 
@@ -95,7 +95,7 @@ Office 365 ProPlus Automated Install with Chocolatey
 To install O365 ProPlus you’ll create a new script with the following settings:
 
 . No Script File
-. Execute With: powershell.exe
+. Run With: powershell.exe
 . Arguments (Optional): Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString(‘http://getAVD.com/proplus_minus_onedrive.ps1’))
 . Edit the http://getAVD.com/proplus_minus_onedrive.ps1 and replace with the URL to your own hosted ps1 file.
 +

@@ -78,7 +78,7 @@ Impact:  Access to Cloud Workspace desktops and application services for end-use
 
 === 5.1 CWMS web app
 
-* Fix an issue regarding Master App Catalog settings persistence
+* Fix an issue regarding Global App Catalog settings persistence
 
 == CWMS 5.1 minor release:  Thurs., May 17, 2018
 

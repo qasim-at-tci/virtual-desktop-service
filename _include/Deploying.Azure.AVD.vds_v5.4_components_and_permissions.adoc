@@ -92,8 +92,8 @@ This is the method used to build the configuration of CWMGR1  The configuration 
 * Az.Resources: A Microsoft provided module for Azure Resource Manager commandlets
 * cChoco:  Desired state configuration resource for downloading and installing packages using Chocolatey
 * cjAz: this NetApp-created module provides automation tools to the Azure automation module
-* cjAzACS: this NetApp-created module contains environment automation functions and PowerShell processes that execute from within the user context.
-* cjAzBuild: this NetApp-created module contains build and maintenance automation and PowerShell processes that execute from the system context.
+* cjAzACS: this NetApp-created module contains environment automation functions and PowerShell processes that run from within the user context.
+* cjAzBuild: this NetApp-created module contains build and maintenance automation and PowerShell processes that run from the system context.
 * cNtfsAccessControl:  Desired state configuration resource for NTFS access control management
 * ComputerManagementDsc:  Desired state configuration resource that allow computer management tasks such as joining a domain and scheduling tasks as well as configuring items such as virtual memory, event logs, time zones and power settings.
 * cUserRightsAssignment:  Desired state configuration resource that allow management of user rights such as logon rights and privileges
@@ -133,7 +133,7 @@ NetApp provides an optional tool that can streamline the hybrid AD process. If u
 * Run on a server OS as opposed to a Workstation OS
 * Run on a server that is joined to the domain or is a domain controller
 * Have PowerShell 5.0 or greater in place on both the server running the tool (if not run on the Domain Controller) and the Domain Controller
-* Be executed by a user with Domain Admin privileges OR be executed by a user with local administrator permissions and ability to supply a Domain Administrator credential (for use with RunAs)
+* Be run by a user with Domain Admin privileges OR be run by a user with local administrator permissions and ability to supply a Domain Administrator credential (for use with RunAs)
 
 Whether created manually or applied by NetApp’s tool, the permissions required are:
 
