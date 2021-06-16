@@ -40,7 +40,7 @@ Event Mode is activated when a user or other VDS Service such as the CW Automati
 
     CWAutomationService.log
 
-The CW Automation Service log is the primary Windows services for managing the components of a Workspace deployment. It executes the tasks required to manage users, applications, data devices, and policy. In addition, it can create tasks for the CW VM Automation Service when changes need to be made to size, count, or state of the VMs in the deployment.
+The CW Automation Service log is the primary Windows services for managing the components of a Workspace deployment. It runs the tasks required to manage users, applications, data devices, and policy. In addition, it can create tasks for the CW VM Automation Service when changes need to be made to size, count, or state of the VMs in the deployment.
 
 Like the CW VM Automation Service, the CW Automation service executes both scheduled tasks and event driven tasks, with the latter being the more frequent type. The log for the CW Automation Service starts each line with the entity and action being worked on (ex: Start Server NNXTS1) so searching for the entity name from the bottom of the file is the quickest way to find the specific log lines that apply to the task.
 
@@ -60,7 +60,7 @@ CWManagerX is a web service that provides the communication link between the loc
 
     DCConfig.log
 
-DC Config is a Windows application that provides Deployment specific configuration parameters that are not exposed in the VDS Web Application interface. The DC Config log details the activities executed when configuration changes are made in DC Config.
+DC Config is a Windows application that provides Deployment specific configuration parameters that are not exposed in the VDS Web Application interface. The DC Config log details the activities runs when configuration changes are made in DC Config.
 
 === CAVDCDeployment log
 

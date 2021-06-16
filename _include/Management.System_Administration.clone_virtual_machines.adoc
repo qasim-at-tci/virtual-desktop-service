@@ -72,7 +72,7 @@ NOTE:  Above assumes automated cloning is enabled for the entire Virtual Desktop
 
 === When does the automated clone process run?
 
-The automated clone process executes when the daily maintenance is configured to run. The default is midnight, but this can be edited. Part of the daily maintenance is to run the Change Resources thread for each resource pool. The Change Resources thread determines the number of shared servers required based-on the number of users the pool’s configuration (customizable; can be 10, 21, 30, etc users per server).
+The automated clone process runs when the daily maintenance is configured to run. The default is midnight, but this can be edited. Part of the daily maintenance is to run the Change Resources thread for each resource pool. The Change Resources thread determines the number of shared servers required based-on the number of users the pool’s configuration (customizable; can be 10, 21, 30, etc users per server).
 
 == “On demand” automated creation of new server
 

@@ -52,7 +52,7 @@ image:vm_performance6.png[]
 +
 image:vm_performance7.png[]
 . The Task Manager gives a wealth of insight into what’s happening, right at that moment. This is the absolute best way to see what’s affecting your users at the moment they report an issue to you.
-. You can review the processes running on the server, identify which if any are causing the issue and either communicate with the Customer or kill the processes on the spot.
+. You can review the processes running on the server, identify which if any are causing the issue and either communicate with the Customer or end the processes on the spot.
 +
 image:vm_performance8.png[]
 . You can also view the Performance tab to show what’s happening, live. This is a tremendous troubleshooting step – asking End users to repeat the steps they took to cause a performance issue, then seeing what happens. Similarly, if they follow general advice (close excess Chrome browser tabs, as Google Chrome tabs are a common resource consumer) you can see resource consumption decrease.

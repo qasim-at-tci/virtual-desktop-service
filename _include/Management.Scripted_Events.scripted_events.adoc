@@ -16,7 +16,7 @@ Scripted Events provides the advanced administrator with a mechanism to create c
 
 A detailed example of scripted events in action is found in the link:Management.Applications.application_entitlement_workflow.html[Application Entitlement Guide].
 
-Additionally, Scripted Events allows for the creation of automation that does not require a script to process, rather the automation flow is launched by a system trigger and executes an existing program or system utility with optional arguments.
+Additionally, Scripted Events allows for the creation of automation that does not require a script to process, rather the automation flow is launched by a system trigger and runs an existing program or system utility with optional arguments.
 
 Scripts Events contains both a *repository* of scripts and *activities*.  Scripts contain the instructions on *what* to do while activities link the scripts with the appropriate trigger and target (*when and where*) for the script.
 
@@ -45,15 +45,15 @@ The following fields need to be completed to create a new script:
 
 * *Name*
 * *Include Script File*
-** Yes - Allows for a script file (e.g. a .ps1 file) to be uploaded and executed by the "Execute With" executable.
-** No - Removes the "Script File" field (below) and simply executes the "Execute With" and "Arguments" command
+** Yes - Allows for a script file (e.g. a .ps1 file) to be uploaded and run by the "Execute With" executable.
+** No - Removes the "Script File" field (below) and simply runs the "Execute With" and "Arguments" command
 * *Script File*
 ** If _Include Script File = Yes_ this field is visible and allows for the upload of a script file.
 * *Execute With*
-** Defines the path of the executable that is used to execute the script file or the the command that is executed.
-** For example, to execute with PowerShell the "Execute With" value would be _C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe_
+** Defines the path of the executable that is used to run the script file or the the command that is run.
+** For example, to run with PowerShell the "Execute With" value would be _C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe_
 * *Arguments*
-** Defines any additional arguments that are executed against the "Executes With" command.
+** Defines any additional arguments that are run against the "Executes With" command.
 ** VDS offers some context aware variables that can be used including:
 *** %companycode% - Company code at runtime
 *** %servername% - VM name at runtime

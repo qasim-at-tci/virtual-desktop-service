@@ -105,7 +105,8 @@ image:Azure Subscription Ownership 1.png[]
 image:Azure Subscription Ownership 2.png[]
 
 === Azure compute core quota
-The CWA Setup wizard and VDS portal will create new virtual machines and the Azure subscription must have available quota to successfully execute.
+The CWA Setup wizard and VDS portal will create new virtual machines and the Azure subscription must have available quota to successfully run
+.
 
 .To check quota follow these steps:
 . Navigate to the Subscriptions module and click “Usage + Quotas”
@@ -211,7 +212,7 @@ When splitting the VDS Platform into Multiple virtual machines the following rol
 * Remote Desktop Gateway
 +
 VDS Setup can be used to deploy and configure one or two RDS Gateways. These gateways relay the RDS user session from the open internet to the session host VMs within the deployment. RDS Gateways handle an important function, protecting RDS from direct attacks from the open internet and to encrypt all RDS traffic in/out of the environment. When two Remote Desktop Gateways are selected, VDS Setup deploys 2 VMs and configures them to load balance incoming RDS user sessions.
-		
+
 * HTML5 Gateway
 +
 VDS Setup can be used to deploy and configure one or two HTML5 Gateways. These gateways host the HTML5 services used by the _Connect to Server_ feature in VDS and the web-based VDS Client (H5 Portal). When two HTML5 Portals are selected, VDS Setup deploys 2 VMs and configures them to load balance incoming HTML5 user sessions.

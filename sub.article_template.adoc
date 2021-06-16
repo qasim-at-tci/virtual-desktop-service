@@ -30,7 +30,7 @@ Using the example of an article with a Title of "File Name"
 2. Keep the Comments Section updated with the correct name of the "sub."" article(s) that use this content.  This way we can back-trace where content ends up.
 2.a. In our example change "Used in: sub.article.template.adoc" to "Used in: sub.Management.Deployments.file_name.adoc"
 3. Write the article and save it. In our example: "virtual-desktop-service/_include/Management.Deployments.file_name.adoc"
-4. Duplicate this file (the one you're reading this text in) "virtual-desktop-service/sub.article_template.adoc" and name it the exact same as the file from step 1, but prepended with "sub."   (e.g. "virtual-desktop-service/sub.Management.Deployments.file_name.adoc")  Note that it should be saved int he root "virtual-desktop-service/ direction, not the _include" subdirectory.
+4. Duplicate this file (the one you're reading this text in) "virtual-desktop-service/sub.article_template.adoc" and name it the exact same as the file from step 1, but prepended with "sub."   (e.g. "virtual-desktop-service/sub.Management.Deployments.file_name.adoc")  Note that it should be saved in the root "virtual-desktop-service/ direction, not the _include" subdirectory.
 5. Edit the following items above:
 5.a. "permalink:" - make this the exact same as the .adoc file name from the _include folder adn change the file extension to ".html".  In our example: "Management.Deployments.file_name.html"
 5.b. "summary:" - Enter a descriptive sentence or two, this is used in search results.

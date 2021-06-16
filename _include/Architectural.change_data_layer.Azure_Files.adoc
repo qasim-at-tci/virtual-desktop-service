@@ -61,7 +61,7 @@ image:Architectural.ChangeDataLayer.AzureFiles7.png[]
 
 === Set the NTFS Permissions
 . Connect to the shares
-.. Navigate to the sahre under the storage accont int he Azure portal, click the three dots, then click Connect
+.. Navigate to the share under the storage account in the Azure portal, click the three dots, then click Connect
 +
 image:Architectural.ChangeDataLayer.AzureFiles8.png[]
 +

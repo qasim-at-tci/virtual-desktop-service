@@ -1,5 +1,5 @@
 === Add Manual activity
-In order for a script in the repository to take any action, an activity must be created to associate that script with a selected trigger. In this example activity execute when the VDS admin manually triggers the script.
+In order for a script in the repository to take any action, an activity must be created to associate that script with a selected trigger. In this example activity runs when the VDS admin manually triggers the script.
 
 VDS scripted events offers many other types of activity triggers such as _Create Server_ which could be used as an alternative to the _Manual_ event type. Using _Create Server_ would simply execute this script on all newly created VMs in VDS. _Create Server_ and other triggers are documented and can be explored link:Management.Scripted_Events.scripted_events.html[here].
 
