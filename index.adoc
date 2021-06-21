@@ -36,10 +36,10 @@ Deploy desktops into logical workflows per cloud best practices; Such as Microso
 +
 Event driven automation and orchestration engine leveraging your current scripts, making management so easy, general IT administrators can manage your cloud desktops!
 
-* *Multi-Cloud*de
+* *Multi-Cloud*
 +
 Control multiple tenants across AWS, Azure and Google with a single graphical user interface.
-
+ 
 * *Flexible Control*
 +
 Maximize business flexibility with a single portal to control every layer of your technology stack.
