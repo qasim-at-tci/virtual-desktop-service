@@ -39,7 +39,7 @@ Event driven automation and orchestration engine leveraging your current scripts
 * *Multi-Cloud*
 +
 Control multiple tenants across AWS, Azure and Google with a single graphical user interface.
-
+ 
 * *Flexible Control*
 +
 Maximize business flexibility with a single portal to control every layer of your technology stack.
