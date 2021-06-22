@@ -6,6 +6,24 @@ Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
 
+== VDS 6.0 release: Thursday June 24, 2021
+_Components:_ 6.0 Virtual Desktop Service
+_When:_ Thursday June 4th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+NOTE: Due to scheduling around the 4th of July, the next VDS release will be on Thursday 7/15.
+
+=== Virtual Desktop Service
+* Updates to reflect that Windows Virtual Desktop (WVD) is now Azure Virtual Desktop (AVD)
+* Bug fix for username formatting in Excel exports
+* Improved configurations for custom branded HTML5 login pages
+* Assorted proactive security and performance enhancements
+
+=== Cost Estimators
+* Updates to reflect that Windows Virtual Desktop (WVD) is now Azure Virtual Desktop (AVD)
+* Updates to the reflect the more services/GPU VMs are available in new regions
+
+
 == VDS 6.0 release: Thursday June 10, 2021
 _Components:_ 6.0 Virtual Desktop Service
 _When:_ Thursday June 10th, 2021 at 10pm – 11pm Eastern
