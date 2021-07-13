@@ -5,6 +5,16 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
+== VDS 6.0 release: Thursday July 15th, 2021
+_Components:_ 6.0 Virtual Desktop Service
+_When:_ Thursday July 15th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Enhancement to Cloud Insights integration –capturing per-user performance metrics and displaying them in the User context
+* Improvements to ANF provisioning automation – improved automated registration of NetApp as a provider in the customer’s Azure tenant
+* Phrasing adjustment when creating a new AVD Workspace
+* Assorted proactive security and performance enhancements
 
 == VDS 6.0 release: Thursday June 24, 2021
 _Components:_ 6.0 Virtual Desktop Service
