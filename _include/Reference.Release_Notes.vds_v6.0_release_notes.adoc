@@ -5,6 +5,14 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
+== VDS v6 hotfix: Tuesday July 20th, 2021
+_Components:_ Virtual Desktop Service v6
+_When:_ Tuesday July 20th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Remediate an issue causing abnormally large amount of API traffic in a certain configuration
+
 == VDS 6.0 release: Thursday July 15th, 2021
 _Components:_ 6.0 Virtual Desktop Service
 _When:_ Thursday July 15th, 2021 at 10pm – 11pm Eastern
