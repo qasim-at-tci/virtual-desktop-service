@@ -5,6 +5,16 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
+
+== VDS v6 release: Thursday July 29th, 2021
+_Components:_ Virtual Desktop Service v6
+_When:_ Thursday July 29th, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Bug fix - resolve an issue for VMware deployments where CWAgent didn't get installed as intended
+* Bug fix - resolve an issue for VMware deployments where creating a server with the Data role didn't function as intended
+
 == VDS v6 hotfix: Tuesday July 20th, 2021
 _Components:_ Virtual Desktop Service v6
 _When:_ Tuesday July 20th, 2021 at 10pm – 11pm Eastern

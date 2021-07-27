@@ -6,6 +6,12 @@ Used in: sub.Reference.Release_Notes.vds_windows_client_release_notes.adoc
 
 ////
 
+== Date: Thursday July 29th, 2020 at 11pm Eastern
+_Impact:_ Users will see the VDS Client for Windows update the next time they launch it
+
+=== Improvements
+* Streamline the installation process - new end users will no longer have to accept terms and conditions when installing the VDS Client for Windows
+* Add a confirmation during the install process to confirm that the end user's device is able to access the location where auto-updates originate
 
 == Date: Thursday May 27, 2020 at 11pm Eastern
 _Impact:_ Users will see the RDP client update the next time they launch it
