@@ -5,6 +5,14 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
+== VDS v6 hotfix: Tuesday July 30th, 2021
+_Components:_ Virtual Desktop Service v6
+_When:_ Friday July 30th, 2021 at 7pm – 8pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+
+* Deployment template update to facilitate automation improvements
 
 == VDS v6 release: Thursday July 29th, 2021
 _Components:_ Virtual Desktop Service v6
