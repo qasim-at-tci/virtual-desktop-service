@@ -5,6 +5,18 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
+== VDS v6 release: Thursday August 12th, 2021
+_Components:_ Virtual Desktop Service v6
+_When:_ Thursday August 12, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Enhancements to Cloud Insights functionality and context
+* Improved backup schedule frequency handling
+* Bug fix - resolve an issue for CwVmAutomation service checking config on service restart
+* Bug fix - resolve an issue for DCConifg that did not allow saving configurations in certain scenarios
+* Assorted proactive security and performance enhancements
+
 == VDS v6 hotfix: Tuesday July 30th, 2021
 _Components:_ Virtual Desktop Service v6
 _When:_ Friday July 30th, 2021 at 7pm – 8pm Eastern
