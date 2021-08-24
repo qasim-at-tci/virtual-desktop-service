@@ -5,6 +5,15 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
+
+== VDS v6 release: Thursday August 26th, 2021
+_Components:_ Virtual Desktop Service v6
+_When:_ Thursday August 26, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+* Update to the URL placed on a user's desktop when they are granted access to the VDS management UI
+
 == VDS v6 release: Thursday August 12th, 2021
 _Components:_ Virtual Desktop Service v6
 _When:_ Thursday August 12, 2021 at 10pm – 11pm Eastern
