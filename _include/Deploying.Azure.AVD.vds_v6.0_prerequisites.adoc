@@ -209,6 +209,7 @@ link:api.cloudworkspace.com[]
 link:autoprodb.database.windows.net[]
 link:vdctoolsapiprimary.azurewebsites.net[]
 link:cjbootstrap3.cjautomate.net[]
+link:https://cjdownload3.file.core.windows.net/media[]
 
 If your access control device can only safe list by IP address, the following list of IP addresses should be safelisted. Note that VDS uses the Azure Traffic Manager service, so this list may change over time:
 
