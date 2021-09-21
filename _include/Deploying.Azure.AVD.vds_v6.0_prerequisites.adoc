@@ -52,8 +52,8 @@ IMPORTANT: Azure Virtual Desktop does not currently support the Remote Desktop c
 | Outbound TCP Port
 | Purpose
 | Client(s)
-| *.AVD.microsoft.com |	443	| Service traffic	|All
-|*.servicebus.windows.net	443	Troubleshooting data	|All
+| *.wvd.microsoft.com |	443	| Service traffic	|All
+|*.servicebus.windows.net	| 443	| Troubleshooting data	|All
 |go.microsoft.com	|443	|Microsoft FWLinks	|All
 |aka.ms	|443	|Microsoft URL shortener	|All
 |docs.microsoft.com	|443	|Documentation	|All
