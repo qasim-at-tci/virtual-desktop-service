@@ -5,6 +5,18 @@ Comments Sections:
 Used in: sub.Reference.Release_Notes.vds_v6.0_release_notes.adoc
 
 ////
+
+== VDS v6 release: Thursday September 23rd, 2021
+_Components:_ Virtual Desktop Service v6
+_When:_ Thursday September 23, 2021 at 10pm – 11pm Eastern
+_Impact:_ Access to desktops and application services for End Users will remain uninterrupted. Access to Virtual Desktop Service will remain available.
+
+=== Virtual Desktop Service
+
+* Update to PAM to integrate with AADDS-based deployments
+* Display RemoteApp URLs in the Workspace module for non-AVD deployments
+* Bug fix for a scenario where making an end user an administrator in a specific on-premises Active Directory configuration
+
 == VDS v6 release: Thursday September 9th, 2021
 
 _Components:_ Virtual Desktop Service v6
