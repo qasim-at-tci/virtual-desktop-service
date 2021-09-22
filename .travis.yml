@@ -9,6 +9,8 @@ env:
     - FRAMEWORK_BRANCH=main
 jobs:
   include:
+    - stage: travis-test-build
+      script: true
     - stage: deploy
       if: branch = main OR repo =~ /-internal/
       before_install:
